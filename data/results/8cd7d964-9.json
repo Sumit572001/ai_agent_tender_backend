@@ -1,0 +1,606 @@
+{
+  "folder_id": "58bcffb1_rao_tender",
+  "folder_name": "Rao Tender",
+  "created_at": "2026-11-04T15:04:59.709707",
+  "total_points": 63,
+  "found_points": 30,
+  "missing_points": 33,
+  "accuracy_score": 47.62,
+  "files": [
+    "1 FORM.pdf",
+    "2 B1.pdf",
+    "3 SCHEDULE C.pdf"
+  ],
+  "doc_summaries": [
+    {
+      "filename": "3 SCHEDULE C.pdf",
+      "page_count": 18,
+      "total_chars": 39000,
+      "extracted_pages": 18
+    },
+    {
+      "filename": "1 FORM.pdf",
+      "page_count": 169,
+      "total_chars": 64158,
+      "extracted_pages": 40
+    },
+    {
+      "filename": "2 B1.pdf",
+      "page_count": 19,
+      "total_chars": 45930,
+      "extracted_pages": 19
+    }
+  ],
+  "model_used": "gemini-3.6-flash",
+  "results": [
+    {
+      "id": "crit_1",
+      "category": "General & Project Details",
+      "question": "Tender No",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_2",
+      "category": "General & Project Details",
+      "question": "Type of Contract",
+      "answer": "Percentage rate tender ('B-1' Form)",
+      "status": "Found",
+      "source": "1 FORM.pdf, Page 9, Detailed e-Tender Notice",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_3",
+      "category": "General & Project Details",
+      "question": "Cost of project",
+      "answer": "Rs. 16,68,07,894/- (Rupees Sixteen Crore Sixty Eight Lakh Seven Thousand Eight Hundred Ninety Four Only)",
+      "status": "Found",
+      "source": "1 FORM.pdf, Page 1 & Page 4, Information of Work",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_4",
+      "category": "Fees & Guarantees",
+      "question": "Tender Fees",
+      "answer": "Rs. 30,000/- (Including GST), payable via online mode (RTGS/NEFT certificate)",
+      "status": "Found",
+      "source": "1 FORM.pdf, Page 4 & Page 9, Detailed e-Tender Notice Clause 3 & 4",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_5",
+      "category": "Fees & Guarantees",
+      "question": "EMD",
+      "answer": "Rs. 33,36,158/- (2% of Bid Value), payable via online mode using NEFT/RTGS or payment gateway (EMD exemption certificate shall not be accepted)",
+      "status": "Found",
+      "source": "1 FORM.pdf, Page 1, Page 4 & Page 9, Detailed e-Tender Notice Clause 4",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_6",
+      "category": "General & Project Details",
+      "question": "Name of Work",
+      "answer": "• Option 1: PROPOSED HINDU DHARMRAKSHAK PUNYASHLOK RAJMATA AHILYADEVI HOLKAR MULTIPURPOSE BUILDING\n• Option 2: PROPOSED MULTIPURPOSE HALL FOR SHRI MARTAND DEVSANSTHAN JEJURI IN GAT NO OLD 677+ 678 NEW 306 + 307 JEJURI TALUKA PURANDHAR DIST PUNE",
+      "status": "Found",
+      "source": "1 FORM.pdf, Page 1 & 3 SCHEDULE C.pdf, Page 1",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_7",
+      "category": "General & Project Details",
+      "question": "Scope of work",
+      "answer": "• Walls: Brick Masonry\n• Plaster Internal work: Cement plasters\n• Plaster External work: Sand faced plaster\n• Painting work: Internal emulsion Paint, External Weathershield paint\n• Tile works: Granite for doors & window sills & Jams, Vitrified tiles flooring and skirting, dado for rooms, & ceramic tiles flooring and skirting, dado for toilet\n• Doors, Windows and ventilators: Granite stone cladding frame, Single shutter solid core Flush door, FRP door for toilet, Partition Work, Aluminum sliding two/three track windows & ventilator as per plan\n• Internal water supply and sanitary works: W.C. Orissa/European/Anglo Indian pans and UPVC soil and drainage pipe necessary S.W. pipeline, inspection chamber, and wash hand basin, urinals etc.\n• Other Items: R.C.C. water tank at ground level & Sintex water tank at terrace level, C.C Road work, Paver Block in parking area",
+      "status": "Found",
+      "source": "1 FORM.pdf, Page 36, Scope of Work & Site Condition",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_8",
+      "category": "General & Project Details",
+      "question": "Type of Project/ Building/",
+      "answer": "Multipurpose Building / Multipurpose Hall Construction (Civil Works)",
+      "status": "Found",
+      "source": "1 FORM.pdf, Page 1 & Page 36; 3 SCHEDULE C.pdf, Page 1",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_9",
+      "category": "General & Project Details",
+      "question": "Client",
+      "answer": "Shri Martand Devsansthan Jejuri (Chief Trustee)",
+      "status": "Found",
+      "source": "1 FORM.pdf, Page 1",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_10",
+      "category": "General & Project Details",
+      "question": "Executing Agency",
+      "answer": "• Option 1: Shri Martand Devsansthan Jejuri\n• Option 2: IDW, NHM",
+      "status": "Found",
+      "source": "1 FORM.pdf, Page 1, Page 9, Page 27 (Clause 1.9)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_11",
+      "category": "General & Project Details",
+      "question": "Architect & Preparation of Tender",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_12",
+      "category": "Dates & Timelines",
+      "question": "Publish Date",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_13",
+      "category": "Dates & Timelines",
+      "question": "Pre Bid -meeting & Place",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_14",
+      "category": "Dates & Timelines",
+      "question": "Submission date",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_15",
+      "category": "Dates & Timelines",
+      "question": "Bid Opening Date",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_16",
+      "category": "Dates & Timelines",
+      "question": "Bid Validity",
+      "answer": "Minimum period of 120 days from the Date of opening of Envelope No.2 (Financial Bid).",
+      "status": "Found",
+      "source": "1 FORM.pdf, Page 31, Clause 1.29",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_17",
+      "category": "Dates & Timelines",
+      "question": "Commencement of project",
+      "answer": "The time limit shall be reckoned from the date of written order for commencing the work.",
+      "status": "Found",
+      "source": "1 FORM.pdf, Page 29, Clause 1.11",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_18",
+      "category": "Dates & Timelines",
+      "question": "Time of Completion",
+      "answer": "• Option 1: 18 (Eighteen) Calendar Months including monsoon period\n• Option 2: 15 (Fifteen) Months including monsoon\n• Option 3: 16 (Sixteen) Calendar Months including monsoon",
+      "status": "Found",
+      "source": "1 FORM.pdf, Page 4 (Information of Work), Page 6 (Brief Tender Notice), and Page 9 (Detailed e-Tender Notice)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_19",
+      "category": "Commercial & Legal",
+      "question": "Joint Venture (JV)",
+      "answer": "• Option 1: Bids from Joint Ventures are not acceptable.\n• Option 2: In case of Joint Venture, Earnest money shall be paid via online using NEFT/RTGS or Payment gateway mode.",
+      "status": "Found",
+      "source": "1 FORM.pdf, Page 23, Clause 1.4.9 (i) and Page 27, Clause 1.8 (iii)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_20",
+      "category": "Site & Infrastructure",
+      "question": "Site Location",
+      "answer": "Shri Martand Devsansthan Jejuri, Gat No. Old 677+678 / New 306+307, A/P Jejuri, Taluka Purandar, District Pune, Maharashtra.",
+      "status": "Found",
+      "source": "3 SCHEDULE C.pdf, Page 1 (Name of Work) and 1 FORM.pdf, Page 1",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_21",
+      "category": "Site & Infrastructure",
+      "question": "Site Visit/ Site Location",
+      "answer": "• Site Location: Proposed Multipurpose Hall / Building for Shri Martand Devsansthan Jejuri in Gat No Old 677+678 New 306+307 Jejuri, Taluka Purandhar, Dist. Pune.\n• Site Visit Condition: The Bidder, at the Bidder's own responsibility and risk, is encouraged to visit and examine the Site of Works and its surroundings and obtain all information that may be necessary for preparing the Bid and entering into a contract for construction of the Works. The costs of visiting the Site shall be at the Bidder's own expense.\n• Site Examination: Tenderers shall be presumed to have carefully examined the drawings, conditions, and specifications of the work and have fully acquainted themselves with all details of the site, conditions of rock and its joints, pattern, river, weather characteristics, labour conditions, and necessary data prior to tendering.",
+      "status": "Found",
+      "source": "1 FORM.pdf, Page 20, Clause 4.1 & Page 30, Clause 1.17 (a); 3 SCHEDULE C.pdf, Page 1",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_22",
+      "category": "Site & Infrastructure",
+      "question": "Built up Area",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_23",
+      "category": "Site & Infrastructure",
+      "question": "Site Area",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_24",
+      "category": "Commercial & Payment",
+      "question": "Milestone",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_25",
+      "category": "Commercial & Payment",
+      "question": "Liquidated Damages",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_26",
+      "category": "Commercial & Payment",
+      "question": "Incentive for Early completion",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_27",
+      "category": "Commercial & Payment",
+      "question": "Minimum value of work to be executed interim RA payment",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_28",
+      "category": "Commercial & Payment",
+      "question": "R.A Bill Payments",
+      "answer": "• Security Deposit Deduction: Remaining 8% (out of total 10% Security Deposit) will be deducted from every running bill.\n• Tax Deductions: Income Tax @ 2% or percentage in force from time to time shall be deducted from bill amounts whether measured bill, advance payment, or secured advance.\n• Labour Welfare Cess: Cess @ 1% (One Percent) shall be deducted at source from every bill under Building and Other Construction Workers Welfare Cess Act 1996.\n• Royalty Deduction: Royalty charges will be recovered from contractor's bills if valid payment proof for material consumption is not produced.\n• GST Compensation: Extra burden of GST, if any, shall be compensated upon production of authenticated records of net extra burden on account of GST.",
+      "status": "Found",
+      "source": "1 FORM.pdf, Page 4; Page 15, Clause 1.4; Page 31, Clause 1.14 b, Clause 1.27 & Clause 1.30",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_29",
+      "category": "Commercial & Payment",
+      "question": "Period of Final Measurement",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_30",
+      "category": "Commercial & Payment",
+      "question": "Price Escalation",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_31",
+      "category": "Commercial & Legal",
+      "question": "Stamp Duty for Aggrement",
+      "answer": "• For bids up to Rs. 10 Lakhs: Bond paper value of Rs. 500/-\n• For bids above Rs. 10 Lakhs: Bond paper value of Rs. 100/- for each additional Lakh",
+      "status": "Found",
+      "source": "Document: 1 FORM.pdf, Page 11, Clause 18",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_32",
+      "category": "Fees & Guarantees",
+      "question": "Retension Money",
+      "answer": "8% will be deducted from every running bill (making up the balance of the 10% Total Security Deposit, where 2% is EMD).",
+      "status": "Found",
+      "source": "Document: 1 FORM.pdf, Page 4, Information of Work & Page 27, Clause 1.9 A",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_33",
+      "category": "Fees & Guarantees",
+      "question": "Release of Retension Money",
+      "answer": "• Remaining 8% deducted at every running bill (forming part of the 10% Total Security Deposit) is valid till completion of defect liability period.\n• Additional Performance Security Deposit shall be refunded along with the final bill after satisfactory completion of work.\n• The amount of performance security of successful contractor shall be refunded within the period of 3 months after the date of completion of said work successfully.",
+      "status": "Found",
+      "source": "1 FORM.pdf, Page 25, 27 & 28, Clause 1.5, Clause 1.9 A & Item 6",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_34",
+      "category": "Fees & Guarantees",
+      "question": "Security Deposite",
+      "answer": "• Total Security Deposit: 10% of tender value (Rs. 33,36,158/-)\n• Initial Security Deposit / EMD: 2% (Rs. 33,36,158/-)\n• Deductions: Remaining 8% deducted from every running bill\n• Condition: Payable in the form of Demand Draft of a Nationalized/Scheduled bank in favour of 'SHRI MARTAND DEVSANSTHAN JEJURI' payable at JEJURI.",
+      "status": "Found",
+      "source": "Document: 1 FORM.pdf, Page 4, Information of Work & Page 27, Clause 1.9 A",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_35",
+      "category": "Fees & Guarantees",
+      "question": "Release of Security Deposite",
+      "answer": "The Security Deposit must remain valid till the completion of the defect liabilities period as prescribed in clause 1 of B-1 Form.",
+      "status": "Found",
+      "source": "Document: 1 FORM.pdf, Page 27, Clause 1.9 A",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_36",
+      "category": "Fees & Guarantees",
+      "question": "Performance Security",
+      "answer": "Additional Performance Security Deposit (if offer quoted is below estimated cost):\n• 1% to 10% Below: 1%\n• 10% to 15% Below: 5% (Total 6%)\n• More than 15% Below: 1% + 5% + double rate of the percentage by which offer is more than 15% below (e.g., for 19% below: 1% + 5% + 8% = 14%)\n• Submission Period: Must be submitted in the form of DD of a Nationalized/Scheduled Bank within 8 days from the date of opening of financial bid.",
+      "status": "Found",
+      "source": "Document: 1 FORM.pdf, Page 9-10, Clause 5 & 6 & Page 28, Clause 1",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_37",
+      "category": "Fees & Guarantees",
+      "question": "Release of Performance Security",
+      "answer": "• Option 1: Refunded after satisfactory completion of work and handing over of the work.\n• Option 2: Refunded within a period of 3 months after the date of successful completion of work.\n• Option 3: Refunded along with the final bill after satisfactory completion of work.",
+      "status": "Found",
+      "source": "Document: 1 FORM.pdf, Page 9 Clause 5, Page 25 Clause 1.5 A, Page 28 Clause 6",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_38",
+      "category": "Commercial & Payment",
+      "question": "Defect liability period",
+      "answer": "• Overall Defect Liability Period: Duration in months/years is not specifically defined in general conditions.\n• Specific Guarantee Provisions: 7 years guarantee on Stamp Papers for Waterproofing treatment (Item No. 33 & Item No. 34).",
+      "status": "Found",
+      "source": "Document: 3 SCHEDULE C.pdf, Page 8, Item 33 & Item 34",
+      "confidence": "Medium"
+    },
+    {
+      "id": "crit_39",
+      "category": "Commercial & Payment",
+      "question": "Mobilisation Advance",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_40",
+      "category": "Commercial & Payment",
+      "question": "Interest Rate of Mobilization Advance",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_41",
+      "category": "Commercial & Payment",
+      "question": "Recovery of Mobilisation Advance",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_42",
+      "category": "Commercial & Payment",
+      "question": "Secured advance on materials",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_43",
+      "category": "Commercial & Payment",
+      "question": "% of all overheads and profits",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_44",
+      "category": "Quality & Technical",
+      "question": "List of approved make/Agencies",
+      "answer": "• Supreme Eco-drain 200 mm SN 4 Nu-Drain Upvc pipes or of equivalent make (for UPVC pipes)\n• Dr. Fixit or alike (for acrylic polymer modified cement based waterproofing coating)\n• Asian / Berger / Nerolac / Dulex Paints or equivalent make (for Royale Luxury Emulsion internal wall painting)",
+      "status": "Found",
+      "source": "3 SCHEDULE C.pdf, Pages 4, 8, 17, Item No. 15, Item No. 33, Item No. 78",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_45",
+      "category": "Commercial & Payment",
+      "question": "Basic Rate",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_46",
+      "category": "Site & Infrastructure",
+      "question": "Water Supply",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_47",
+      "category": "Site & Infrastructure",
+      "question": "Electricity Supply",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_48",
+      "category": "Site & Infrastructure",
+      "question": "Space for labour hutment",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_49",
+      "category": "Site & Infrastructure",
+      "question": "Working Time",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_50",
+      "category": "Site & Infrastructure",
+      "question": "Project Documentary Film & Video-Grapy",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_51",
+      "category": "Safety & Environment",
+      "question": "First Aid Facilities & Emergency Set-up",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_52",
+      "category": "Quality & Technical",
+      "question": "Material & Samples",
+      "answer": "Prior approval of sample and brand by Executive Engineer is necessary before use.",
+      "status": "Found",
+      "source": "3 SCHEDULE C.pdf, Page 16, Item No. 74",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_53",
+      "category": "Quality & Technical",
+      "question": "Material Testing Laboratory",
+      "answer": "• Option 1: The applicant must provide evidence of having adequate experience in carrying out work like building etc. with adequate control aided by up to the testing laboratory.\n• Option 2: Testing charges shall be payable for only tests carried out from Shri Martand Devsansthan Jejuri or any Govt. Institutions & if permitted by Manager at rates applicable as per P.W. Department's V. & Q.C. Circle. If contractor fails to carry out material test as per number of tests mentioned, three times prevailing testing charges will be recovered.",
+      "status": "Found",
+      "source": "1 FORM.pdf, Page 17 & 32, Clause 1.4.8 & Clauses for Royalty/Laboratory Testing Charges",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_54",
+      "category": "Safety & Environment",
+      "question": "Barricading",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_55",
+      "category": "Safety & Environment",
+      "question": "Water spraying",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_56",
+      "category": "Safety & Environment",
+      "question": "Use Of Low-Voc Paints/Adhesives/Sealants",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_57",
+      "category": "Commercial & Legal",
+      "question": "Escrow Account",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_58",
+      "category": "Site & Infrastructure",
+      "question": "Site Signages",
+      "answer": "• Option 1: Board displaying information ('Name of work, Tender cost, Name of Contractor, Work completion and liability period etc') of size 1.20m x 0.90m made out of 18 gauge (1.25mm) thick mild steel sheet.\n• Option 2: Road junction / information sign boards of size 1.80m x 0.90m prepared out of 16 gauge Aluminium sheet with retro-reflective sheeting.\n• Option 3: Specific name board to be provided at site before execution of work including all work details as instructed by Manager.",
+      "status": "Found",
+      "source": "Document: 3 SCHEDULE C.pdf, Page 2-3, Item No. 9 & 10; Document: 1 FORM.pdf, Page 18, Clause 1.4.9",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_59",
+      "category": "Site & Infrastructure",
+      "question": "Office for Client",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_60",
+      "category": "Site & Infrastructure",
+      "question": "Trasportation for Client",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_61",
+      "category": "Quality & Technical",
+      "question": "Plants & Machinery",
+      "answer": "• Reversible Drum Type Concrete Mixer (capacity 7-9 Cum/Hour with integral weigh batcher & SCADA arrangement / RM-800 / RM-1050 / Ready mix batching plant): 2 Nos. (Own/Hire)\n• Centering plate with M.S. telescopic props and acro span (Spanacrow): 25 Nos. (Own/Hire)\n• Dewatering Pump 5 HP: 1 No. (Own/Hire)\n• Plate vibrator 40mm: 1 No. / Vibratory needle 25mm: 1 No. (Own/Hire)\n• Trucks / Tipper: 2 Nos. (Own/Hire)\n• Water Tanker (6000 Lit. Capacity): 1 No. (Own/Hire)\n• Automatic Sand Sieving cum washing unit of min 4-6 cum/Hr capacity: 1 No. (Own/Hire)",
+      "status": "Found",
+      "source": "Document: 1 FORM.pdf, Page 21, Clause 1.4.19(g)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_62",
+      "category": "Quality & Technical",
+      "question": "Staff",
+      "answer": "• Sr. Engineer (BE): 2 Nos., Min 10+ years experience in Building construction work.\n• Jr. Engineer (BE): 4 Nos., Min 5+ years experience in Building construction work.\n• Supervisor (DCE): 6 Nos., Min 5+ years experience in Building construction work.",
+      "status": "Found",
+      "source": "Document: 1 FORM.pdf, Page 21, Clause 1.4.19(f)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_63",
+      "category": "Commercial & Legal",
+      "question": "Force Majure",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    }
+  ],
+  "id": "8cd7d964-9",
+  "reanalyzed_at": "2026-11-04T15:15:47.820248"
+}

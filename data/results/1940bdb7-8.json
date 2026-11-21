@@ -1,0 +1,641 @@
+{
+  "folder_id": "0d4e6581_mulund_tender",
+  "folder_name": "Mulund Tender",
+  "created_at": "2026-10-15T16:48:00.302660",
+  "total_points": 63,
+  "found_points": 44,
+  "missing_points": 19,
+  "accuracy_score": 69.84,
+  "files": [
+    "Corrigendum_I.pdf",
+    "Corrigendum_II_Date_Extension.pdf",
+    "eProcurement System Government of India.pdf",
+    "First_Additional_Clarification.pdf",
+    "Important General Notes.pdf",
+    "Prebid_Minutes.pdf",
+    "Second_Additional_Information.pdf",
+    "TechnicalBid.pdf"
+  ],
+  "doc_summaries": [
+    {
+      "filename": "eProcurement System Government of India.pdf",
+      "page_count": 2,
+      "total_chars": 5908,
+      "extracted_pages": 2
+    },
+    {
+      "filename": "TechnicalBid.pdf",
+      "page_count": 92,
+      "total_chars": 77955,
+      "extracted_pages": 40
+    },
+    {
+      "filename": "Corrigendum_I.pdf",
+      "page_count": 1002,
+      "total_chars": 4563,
+      "extracted_pages": 40
+    },
+    {
+      "filename": "Corrigendum_II_Date_Extension.pdf",
+      "page_count": 1,
+      "total_chars": 1927,
+      "extracted_pages": 1
+    },
+    {
+      "filename": "First_Additional_Clarification.pdf",
+      "page_count": 1,
+      "total_chars": 2352,
+      "extracted_pages": 1
+    },
+    {
+      "filename": "Important General Notes.pdf",
+      "page_count": 10,
+      "total_chars": 38458,
+      "extracted_pages": 10
+    },
+    {
+      "filename": "Prebid_Minutes.pdf",
+      "page_count": 40,
+      "total_chars": 94665,
+      "extracted_pages": 40
+    },
+    {
+      "filename": "Second_Additional_Information.pdf",
+      "page_count": 2,
+      "total_chars": 2759,
+      "extracted_pages": 2
+    }
+  ],
+  "model_used": "gemini-3.6-flash",
+  "results": [
+    {
+      "id": "crit_1",
+      "category": "General & Project Details",
+      "question": "Tender No",
+      "answer": "DCSEM/CQD/QSA/TMC-Plot-5,16&17/26-27/NIT/05 dt.14.07.2026 (Tender ID: 2026_DCSEM_917315_1)",
+      "status": "Found",
+      "source": "TechnicalBid.pdf, Page 1 & 7, NIT No.; eProcurement System Government of India.pdf, Page 1",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_2",
+      "category": "General & Project Details",
+      "question": "Type of Contract",
+      "answer": "Item Rate (Item Rate Tender & Contract for Works)",
+      "status": "Found",
+      "source": "TechnicalBid.pdf, Page 29 & Page 34, Clause 9(ii); eProcurement System Government of India.pdf, Page 1, Form Of Contract",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_3",
+      "category": "General & Project Details",
+      "question": "Cost of project",
+      "answer": "Rs. 223.40 Crore (₹ 2,23,40,00,000)",
+      "status": "Found",
+      "source": "TechnicalBid.pdf, Page 7, Part B: NIT Details Item 3; eProcurement System Government of India.pdf, Page 1, Tender Value",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_4",
+      "category": "Fees & Guarantees",
+      "question": "Tender Fees",
+      "answer": "• Tender Document Fee: Nil (₹ 0.00)\n• Tender Processing Fee: Nil",
+      "status": "Found",
+      "source": "TechnicalBid.pdf, Page 8, Part B: NIT Details Items 6 & 7; eProcurement System Government of India.pdf, Page 1, Tender Fee Details",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_5",
+      "category": "Fees & Guarantees",
+      "question": "EMD",
+      "answer": "• Earnest Money Deposit (EMD) Amount: Rs. 233.40 Lakh (₹ 2,33,40,000)\n• Mode 1: Entire amount in Bankers Cheque / Account Payee Demand Draft / Fixed Deposit Receipt (FDR) / Insurance Surety Bonds from a Commercial Bank in favour of 'Pay & Accounts Officer, DCSEM, Mumbai'\n• Mode 2: (i) Rs. 20.00 Lakh deposited in the prescribed forms above, AND (ii) Balance Rs. 213.40 Lakh in the form of Bank Guarantee (including e-Bank Guarantee) issued by a Commercial Bank valid for 180 days (6 months) from the last date of online submission of tender",
+      "status": "Found",
+      "source": "TechnicalBid.pdf, Page 7, Part B: NIT Details Item 4; eProcurement System Government of India.pdf, Page 1, EMD Fee Details",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_6",
+      "category": "General & Project Details",
+      "question": "Name of Work",
+      "answer": "Construction of RCC framed structure for Residential buildings having Stilt+20 floors at Plot No. 5, Stilt+20 floors at Plot No. 16 and Stilt+21 floors at Plot No. 17, including Civil, PH, Electrical & Fire Fighting works for Tata Memorial Centre (TMC) staff quarters at Navghar at Mulund, Mumbai.",
+      "status": "Found",
+      "source": "TechnicalBid.pdf, Page 1 & Page 7, Item 2; eProcurement System Government of India.pdf, Page 1, Title",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_7",
+      "category": "General & Project Details",
+      "question": "Scope of work",
+      "answer": "Residential buildings having Stilt plus 20 floors at Plot No. 5, Stilt plus 20 floors at Plot No. 16 and Stilt plus 21 floors at Plot No. 17, including Civil, Public Health Engineering (PH/PHE), Electrical, and Fire Fighting works for Tata Memorial Centre (TMC) staff quarters at Navghar at Mulund, Mumbai (including RCC M-40 pile foundations, substructure, UG tanks, podiums, superstructures, and finishes).",
+      "status": "Found",
+      "source": "eProcurement System Government of India.pdf, Page 1, Work Description; TechnicalBid.pdf, Page 7, Item 2; Prebid_Minutes.pdf, Page 18, Sr. No. 63",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_8",
+      "category": "General & Project Details",
+      "question": "Type of Project/ Building/",
+      "answer": "Civil Works - Buildings (High-rise RCC framed structure Residential Staff Quarters comprising Stilt + 20 floors and Stilt + 21 floors)",
+      "status": "Found",
+      "source": "eProcurement System Government of India.pdf, Page 1, Product Category & Work Description; TechnicalBid.pdf, Page 7, Item 2",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_9",
+      "category": "General & Project Details",
+      "question": "Client",
+      "answer": "Tata Memorial Centre (TMC)",
+      "status": "Found",
+      "source": "TechnicalBid.pdf, Page 1 & Prebid_Minutes.pdf, Page 4, Query 14",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_10",
+      "category": "General & Project Details",
+      "question": "Executing Agency",
+      "answer": "Directorate of Construction, Services and Estate Management (DCSEM), Department of Atomic Energy (DAE)",
+      "status": "Found",
+      "source": "eProcurement System Government of India.pdf, Page 1 & TechnicalBid.pdf, Page 3",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_11",
+      "category": "General & Project Details",
+      "question": "Architect & Preparation of Tender",
+      "answer": "DCSEM is responsible for designing and execution of project on behalf of Tata Memorial Centre.",
+      "status": "Found",
+      "source": "Prebid_Minutes.pdf, Page 4, Query 14",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_12",
+      "category": "Dates & Timelines",
+      "question": "Publish Date",
+      "answer": "16-Jul-2026 at 11:00 AM",
+      "status": "Found",
+      "source": "eProcurement System Government of India.pdf, Page 2 & TechnicalBid.pdf, Page 8, Item 10",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_13",
+      "category": "Dates & Timelines",
+      "question": "Pre Bid -meeting & Place",
+      "answer": "• Pre-Bid Meeting: NA (Not Applicable)\n• Uploading of Pre-bid Queries: From 16.07.2026 (11:30 hrs.) to 27.07.2026 (17:00 hrs.) on CPPP website or sent to headqsa@dcsem.gov.in",
+      "status": "Found",
+      "source": "eProcurement System Government of India.pdf, Page 1 & TechnicalBid.pdf, Page 8, Item 11",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_14",
+      "category": "Dates & Timelines",
+      "question": "Submission date",
+      "answer": "• Original Online Submission Deadline: 19.08.2026 (17:00 hrs.)\n• Extended Online Submission Deadline (Corrigendum-II): 01.09.2026 (17:00 hrs.)\n• Extended Date for Receipt of Hard Copy of EMD: 02.09.2026 (15:30 hrs.)",
+      "status": "Found",
+      "source": "TechnicalBid.pdf, Page 9, Item 13 & Corrigendum_II_Date_Extension.pdf, Page 1, Item 1-2",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_15",
+      "category": "Dates & Timelines",
+      "question": "Bid Opening Date",
+      "answer": "• Original Technical Bid Opening Date: 21.08.2026 (15:30 hrs.)\n• Extended Technical Bid Opening Date (Corrigendum-II): 03.09.2026 (15:30 hrs.)\n• Financial Bid Opening Date: Will be notified at a later date",
+      "status": "Found",
+      "source": "TechnicalBid.pdf, Page 9, Item 15-16 & Corrigendum_II_Date_Extension.pdf, Page 1, Item 3",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_16",
+      "category": "Dates & Timelines",
+      "question": "Bid Validity",
+      "answer": "180 (One Hundred and Eighty) Days from the last date of submission of tender",
+      "status": "Found",
+      "source": "eProcurement System Government of India.pdf, Page 1 & TechnicalBid.pdf, Page 30",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_17",
+      "category": "Dates & Timelines",
+      "question": "Commencement of project",
+      "answer": "15 (Fifteen) days from the date of issue of letter of acceptance / WO for reckoning date of start.",
+      "status": "Found",
+      "source": "TechnicalBid.pdf, Page 35, Schedule F (Clause 5)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_18",
+      "category": "Dates & Timelines",
+      "question": "Time of Completion",
+      "answer": "• Option 1: 36 (Thirty-Six) Months\n• Option 2: 1080 Days",
+      "status": "Found",
+      "source": "TechnicalBid.pdf, Page 8 & Page 35, Part B (Point 5) & Schedule F (Clause 5)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_19",
+      "category": "Commercial & Legal",
+      "question": "Joint Venture (JV)",
+      "answer": "Joint Ventures and Consortium etc. shall not be accepted.",
+      "status": "Found",
+      "source": "TechnicalBid.pdf, Page 10, Part C (Tender Requirements for Eligibility)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_20",
+      "category": "Site & Infrastructure",
+      "question": "Site Location",
+      "answer": "Navghar at Mulund, Mumbai - 400081 (Tata Memorial Centre staff quarters at Plot No. 5, 16 and 17)",
+      "status": "Found",
+      "source": "TechnicalBid.pdf, Page 1, Salient Governing Features",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_21",
+      "category": "Site & Infrastructure",
+      "question": "Site Visit/ Site Location",
+      "answer": "• Location: Navghar at Mulund, Mumbai (Plot Nos. 5, 16, and 17), Pincode: 400081.\n• Site Visit Conditions: Tenderers are advised to visit the site of work and its surroundings, with prior permission of Engineer-in-charge/authorised representative, at their own cost to acquaint themselves about location, accessibility, etc. A tenderer shall be deemed to have full knowledge of the site whether inspected or not.\n• Contact Details for Site Visit: Request email/contact to be made well in advance to:\n  1. Sh. S.V. Shinde, Scientific Assistant, DCSEM (Contact No. 09324283002)\n  2. Sh. Amandeep Kundu, Scientific Officer, DCSEM (Contact No. 08168365225)\n  3. Sh. M. Nagarajan, Scientific Officer, DCSEM (Contact No. 09686298130)",
+      "status": "Found",
+      "source": "Important General Notes.pdf, Page 1, Notes 1-3 & Prebid_Minutes.pdf, Page 3, Item 10",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_22",
+      "category": "Site & Infrastructure",
+      "question": "Built up Area",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_23",
+      "category": "Site & Infrastructure",
+      "question": "Site Area",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_24",
+      "category": "Commercial & Payment",
+      "question": "Milestone",
+      "answer": "• Description of Milestones (Physical): NIL\n• Time Allowed (from date of start): NIL\n• Amount to be withheld in case of non-achievement of milestone: NIL",
+      "status": "Found",
+      "source": "TechnicalBid.pdf, Page 35, Schedule F (Clause 5) & Prebid_Minutes.pdf, Page 16, Item 58",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_25",
+      "category": "Commercial & Payment",
+      "question": "Liquidated Damages",
+      "answer": "• Authority for fixing compensation under Clause 2: Chief Engineer (ESG), DCSEM.\n• Maximum Cap: Compensation for delay shall be as per Clause 2 of CCC-2008, provided that total amount of compensation for delay shall not exceed 10% of the tendered value of work or of the tendered value of the item or group of items of work for which a separate period of completion is originally given.",
+      "status": "Found",
+      "source": "TechnicalBid.pdf, Page 35, Schedule F (Clause 2) & Prebid_Minutes.pdf, Page 13, Item 49",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_26",
+      "category": "Commercial & Payment",
+      "question": "Incentive for Early completion",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_27",
+      "category": "Commercial & Payment",
+      "question": "Minimum value of work to be executed interim RA payment",
+      "answer": "Rs. 310.00 Lakhs (Gross work to be done together with net payment / adjustment of advances for material collected, if any, since the last such payment for being eligible to interim payment).",
+      "status": "Found",
+      "source": "TechnicalBid.pdf, Page 35, Schedule F (Clause 7)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_28",
+      "category": "Commercial & Payment",
+      "question": "R.A Bill Payments",
+      "answer": "• Billing System: Computerized Billing as per Clause 6A.\n• Minimum Threshold for Interim RA Payment: Gross work of Rs. 310.00 Lakhs since the last such payment.\n• Mandatory Prerequisites for Bill Release:\n  - Payment proof of Minimum Wages & Bonus to labourers, and submission of EPFO, ESIC, and BOCW Welfare Board registrations/challans/labour license.\n  - Contractor's All Risk (CAR) Insurance Policy and Janata Insurance Policy submitted and kept active.\n  - Certificate of deployment of Technical representative(s) as per Clause 36(i) certified by Engineer-in-Charge.\n  - Certificate for completion of installation of sensor-based air quality monitor and LED display board (submitted with 1st RA bill).\n  - Certificate for completion of site barricading (submitted with 1st RA bill).",
+      "status": "Found",
+      "source": "TechnicalBid.pdf, Page 35, Schedule F (Clauses 6A & 7) & Important General Notes.pdf, Page 1 (Notes 4, 5, 6) & Page 5 (Notes 34(vi), 35)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_29",
+      "category": "Commercial & Payment",
+      "question": "Period of Final Measurement",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_30",
+      "category": "Commercial & Payment",
+      "question": "Price Escalation",
+      "answer": "• Clause 10C: Not Applicable (NA).\n• Clause 10CA (Applicable for Cement & Steel):\n  - Cement (Ordinary Portland Cement): Base Rate = Rs. 320/- per Bag.\n  - Steel Reinforcement Bars (MS Wire Rods): Base Rate = Rs. 68,000/- per MT.\n• Clause 10CC (Applicable for contracts with stipulated period exceeding 12 months):\n  - Stipulated Period of Completion: 36 Months.\n  - Component of Civil Construction Materials (except grey cement & rebars) (Xm): 47%\n  - Component of Labour (Y): 25%\n  - Grey Cement (Xc) and Rebars (Xs): Governed separately under Clause 10CA.\n  - Component of P.O.L. (Z): Unspecified (-)",
+      "status": "Found",
+      "source": "TechnicalBid.pdf, Pages 36-37, Schedule F (Clauses 10C, 10CA, 10CC) & Prebid_Minutes.pdf, Pages 14-15, Item 54",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_31",
+      "category": "Commercial & Legal",
+      "question": "Stamp Duty for Aggrement",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_32",
+      "category": "Fees & Guarantees",
+      "question": "Retension Money",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_33",
+      "category": "Fees & Guarantees",
+      "question": "Release of Retension Money",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_34",
+      "category": "Fees & Guarantees",
+      "question": "Security Deposite",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_35",
+      "category": "Fees & Guarantees",
+      "question": "Release of Security Deposite",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_36",
+      "category": "Fees & Guarantees",
+      "question": "Performance Security",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_37",
+      "category": "Fees & Guarantees",
+      "question": "Release of Performance Security",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_38",
+      "category": "Commercial & Payment",
+      "question": "Defect liability period",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_39",
+      "category": "Commercial & Payment",
+      "question": "Mobilisation Advance",
+      "answer": "• Mobilization Advance: Applicable (Clause 10B(ii)). On a specific request, mobilization advance shall be considered for sanction up to a maximum of 10% of the quoted amount.\n• Release Terms: Released in two equal installments (not later than 3 months); 1st installment against Bank Guarantee (110%) from a Scheduled Bank valid for the contract period (kept renewed to cover balance amount and interest).\n• Plant, Machinery & Shuttering Material Advance: Restricted to 5% of tender value, released against Bank Guarantee (110%) from a Scheduled Bank valid for the contract period.",
+      "status": "Found",
+      "source": "TechnicalBid.pdf, Page 36, Clause 10B (ii) & Prebid_Minutes.pdf, Page 16, Query 59",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_40",
+      "category": "Commercial & Payment",
+      "question": "Interest Rate of Mobilization Advance",
+      "answer": "Simple interest @ 10% per annum. Interest on the advance shall be calculated from the date of payment to the day of recovery, both days inclusive.",
+      "status": "Found",
+      "source": "TechnicalBid.pdf, Page 36, Clause 10B (ii) (b)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_41",
+      "category": "Commercial & Payment",
+      "question": "Recovery of Mobilisation Advance",
+      "answer": "• Recovery shall commence after 10% of work is completed and the entire amount together with interest shall be recovered by the time 80% of the work is completed.\n• It shall be ensured that at any point of time, Bank Guarantee is available for the amount of outstanding advances.",
+      "status": "Found",
+      "source": "TechnicalBid.pdf, Page 36, Clause 10B (ii) (c) & (d)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_42",
+      "category": "Commercial & Payment",
+      "question": "Secured advance on materials",
+      "answer": "Applicable as per Clause 10B(i) of CCC-2008: Secured advance on non-perishable materials will be 90% of the assessed value. When materials on account of which an advance has been made are incorporated in the work, the amount of such advance shall be recovered/deducted from the next payment made under any clause(s) of the contract.",
+      "status": "Found",
+      "source": "Prebid_Minutes.pdf, Page 16, Query 60 (referencing CCC-2008 Clause 10B(i), Page 20)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_43",
+      "category": "Commercial & Payment",
+      "question": "% of all overheads and profits",
+      "answer": "15% (Fifteen percent) on cost of materials and labour to cover all overheads & profits.",
+      "status": "Found",
+      "source": "TechnicalBid.pdf, Page 34, Schedule 'F', Clause 2(x)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_44",
+      "category": "Quality & Technical",
+      "question": "List of approved make/Agencies",
+      "answer": "• Approved Makes: Suggested make lists for Civil, PH, Electrical, and Mechanical works are provided in the respective departmental specifications. Makes are indicative in nature; bidders can use other makes after due approval. For any new brand proposed, adequate details must be submitted at tender stage.\n• Piling Agencies: Piling work must be executed through specialized approved agencies. Departmental suitability verification is done via inspection/evaluation of credentials, and proposed agencies had to be intimated during the pre-bid stage.",
+      "status": "Found",
+      "source": "TechnicalBid.pdf, Page 32, Schedule 'A', Item 4; Important General Notes.pdf, Page 4, Item 33; Prebid_Minutes.pdf, Page 13-14, Query 45, 47 & 50",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_45",
+      "category": "Commercial & Payment",
+      "question": "Basic Rate",
+      "answer": "Basic rates for regulating operation of Clause 10-CA:\n• Cement (Ordinary Portland Cement): Rs. 320/- per Bag\n• Steel reinforcement bars (MS Wire Rods): Rs. 68,000/- per MT",
+      "status": "Found",
+      "source": "TechnicalBid.pdf, Page 36, Clause 10CA",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_46",
+      "category": "Site & Infrastructure",
+      "question": "Water Supply",
+      "answer": "The contractor shall arrange water required for the work at his own cost. Necessary permission from Statutory Authority (including Central Ground Water Authority / local authority, if required for dewatering/borewells) shall be obtained by the contractor without extra cost to the department.",
+      "status": "Found",
+      "source": "TechnicalBid.pdf, Page 33, Schedule 'B', Item 1 & Important General Notes.pdf, Page 2, Item 8 & 9",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_47",
+      "category": "Site & Infrastructure",
+      "question": "Electricity Supply",
+      "answer": "• Option 1: The contractor shall arrange electricity, lighting etc. required for the construction work at his own cost. Necessary permission from Statutory Authority, if required, shall be obtained by the Contractor.\n• Option 2: Arrangement of electrical power supply from temporary construction DB to hoist panel including cabling, protection and earthing shall be carried out by the contractor.",
+      "status": "Found",
+      "source": "TechnicalBid.pdf, Page 33, Schedule 'B' Item 2; Important General Notes.pdf, Page 2, Note 7 & Page 8, Note 1.6",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_48",
+      "category": "Site & Infrastructure",
+      "question": "Space for labour hutment",
+      "answer": "• Option 1: Labour hutments (SCC-12): Not permitted.\n• Option 2: No labour shall be permitted to stay inside campus/premises/site.",
+      "status": "Found",
+      "source": "TechnicalBid.pdf, Page 33, Schedule 'C', Item 3; Important General Notes.pdf, Page 4, Note 31",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_49",
+      "category": "Site & Infrastructure",
+      "question": "Working Time",
+      "answer": "The Contractor shall obtain special permission for working on extended hours of working days including Saturday, Sunday and holidays etc.",
+      "status": "Found",
+      "source": "Important General Notes.pdf, Page 3, Note 19(ii)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_50",
+      "category": "Site & Infrastructure",
+      "question": "Project Documentary Film & Video-Grapy",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_51",
+      "category": "Safety & Environment",
+      "question": "First Aid Facilities & Emergency Set-up",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_52",
+      "category": "Quality & Technical",
+      "question": "Material & Samples",
+      "answer": "The Contractor shall submit samples of all materials to be incorporated in the work, without any extra cost to Department, at least 30 days before he places bulk order for the materials and shall obtain approval of samples in writing from the Engineer-In-charge.",
+      "status": "Found",
+      "source": "Important General Notes.pdf, Page 4, Note 29",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_53",
+      "category": "Quality & Technical",
+      "question": "Material Testing Laboratory",
+      "answer": "List of testing equipment to be provided by the contractor at site lab:\n1. Cube Moulds – 10 Sets.\n2. Slump Cones - 2 No.\n3. Micrometer Screw 25mm gauge - 1 No.\n4. Steel tapes - 3m & 30m 6 Nos. each\n5. Vernier calipers - 2 Nos.\n6. Pycnometer - 1 set\n7. Lab balance - 5 kg, 2 Kg, 1 Kg – 3 set\n8. I.S. Sieves - for coarse aggregates and fine aggregates – 2 set\n9. Glass Flasks and metal container – As required\n10. Approved quality Plumb Bob – 6 Nos.\n11. Spirit Level Minimum 30 cm long with 3 bubbles for horizontal vertical - 6 Nos.\n12. Wire gauge (Circular Type) Disc. - 4 Nos.\n13. Foot Rule - 4 Nos.\n14. Long Nylon thread – As required\n15. Magnifying Glass - As required\n16. Ball Pin hammer 100grm - 2 set\n17. Plastic Bags for taking samples - As required\n18. Moisture meter for timber - 2 set\n19. Earth Resistance Test (For Electrical Works - 2 set)\n20. Meggar (for Electrical Works) - 2 set\n21. Concrete Cube Testing Machine with up to date calibration chart - 2 Set\n22. Proctor Density Test equipments - 2 set\n23. Electric Oven with Thermostat - 2 set\n24. Electrical Kit – 2 set\n25. Smoke test kit – 2 set\n26. Thermometer – 2 No.\n27. Screw driver 30CM Long - As required\n28. Miscellaneous equipment - As required",
+      "status": "Found",
+      "source": "TechnicalBid.pdf, Page 35-36, Schedule 'F', Clause 10A",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_54",
+      "category": "Safety & Environment",
+      "question": "Barricading",
+      "answer": "• Option 1: Construction layouts having area more than 01 (one) acre or Height more than 70m, shall have continuous dust or wind breaking tin / metal sheet erected of minimum height 35 feet around periphery of the construction project site and for construction site, less than 01 (one) acre, the tin / metal sheet height shall be 25 feet minimum.\n• Option 2: The quoted rate shall be inclusive of providing and erecting temporary barricading of height as per 'Guidelines for Air Pollution mitigation' (but minimum 10 feet height) using structural steel (MS Pipes or angle iron frame work etc.), covered with tin / GI sheets of approved colour & shade, Struts, MS Clamps, Bracing etc. and shall have wicket gate & material gate and including writing and painting of direction & instructions, providing glow lamps, reflective signs, marking, flags, caution tape etc. Prior written approval of Engineer-in-Charge of sketch/drawing showing barricading details shall be obtained. Barricading shall be retained continuously during execution till completion. Contractor shall submit certificate for completion of barricading along with 1st RA bill after certifying by Engineer-in-Charge for releasing payment.",
+      "status": "Found",
+      "source": "Important General Notes.pdf, Page 5, Notes 34(viii) & 35",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_55",
+      "category": "Safety & Environment",
+      "question": "Water spraying",
+      "answer": "Water sprinkling shall be continuously carried out so that the debris shall remain in wet condition.",
+      "status": "Found",
+      "source": "Important General Notes.pdf, Page 5, Clause 34(x)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_56",
+      "category": "Safety & Environment",
+      "question": "Use Of Low-Voc Paints/Adhesives/Sealants",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_57",
+      "category": "Commercial & Legal",
+      "question": "Escrow Account",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_58",
+      "category": "Site & Infrastructure",
+      "question": "Site Signages",
+      "answer": "• Cautionary/Information Signage: The contractor shall display proper information/cautionary signage boards at site for the safety of the workers and public in general in the surrounding areas.\n• Project Sign Board: Contractor has to provide sign board at site with detailed name of project, name of client, name with contact number of contractor and minimum wages category wise at entrance of project/site without any extra cost to the department.\n• Barricading Signage: Barricading shall include writing and painting of direction & instructions, providing glow lamps, reflective signs, marking, flags, caution tape etc.",
+      "status": "Found",
+      "source": "Important General Notes.pdf, Pages 5-6, Notes 35, 36 & 37",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_59",
+      "category": "Site & Infrastructure",
+      "question": "Office for Client",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_60",
+      "category": "Site & Infrastructure",
+      "question": "Trasportation for Client",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_61",
+      "category": "Quality & Technical",
+      "question": "Plants & Machinery",
+      "answer": "• Concrete mixer: 6 Nos.\n• Mortar mixing trough: 6 Nos.\n• Needle vibrators: 15 Nos.\n• Tipper/Dumper: 3 Nos.\n• JCB / Poclain: 2 Nos.\n• Polishing Machine: 6 Nos.\n• Mechanical Rammer: 3 Nos.\n• Centering & Shuttering Material: As required\n• Building Hoist: 6 Nos.\n• Tower Crane: 3 Nos.\n• Pump sets: 3 Nos.\n• Bar Bending / Cutting machine: 3 Nos.\n• Miscellaneous machineries, tools & plants: As required",
+      "status": "Found",
+      "source": "TechnicalBid.pdf, Page 38, Schedule F (Clause 18)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_62",
+      "category": "Quality & Technical",
+      "question": "Staff",
+      "answer": "• Project Manager (Graduate Engineer - Civil): 1 No., Min. 20 years experience (Recovery rate: Rs. 60,000/month/person)\n• Deputy Project Manager (Graduate Engineer - Civil + Elec/Mech): 2+1 Nos., Min. 12 years experience (Recovery rate: Rs. 40,000/month/person)\n• Project / Site Engineer (Graduate Engineer / Diploma Engineer - Civil + Elec/Mech): 4+2 Nos., Min. 5/10 years experience (Recovery rate: Rs. 25,000/month/person)\n• Quality Engineer (Graduate Engineer - Civil + Elec/Mech): 1+1 Nos., Min. 8 years experience (Recovery rate: Rs. 25,000/month/person)\n• Surveyor (Diploma Engineer - Civil): 1 No., Min. 8 years experience (Recovery rate: Rs. 15,000/month/person)\n• Project Planning / billing Engineer (Graduate Engineer - Civil + Elec/Mech): 1+1 Nos., Min. 6 years experience (Recovery rate: Rs. 20,000/month/person)\n• Safety Engineer: Experienced safety Engineer to look after safety aspect during construction period\n• Quality Assurance Engineer: Team headed by Quality Assurance Engineer to ensure quality of day-to-day works",
+      "status": "Found",
+      "source": "TechnicalBid.pdf, Page 38-39, Schedule F (Clause 36(i))",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_63",
+      "category": "Commercial & Legal",
+      "question": "Force Majure",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    }
+  ],
+  "id": "1940bdb7-8",
+  "reanalyzed_at": "2026-10-15T16:57:15.754900"
+}

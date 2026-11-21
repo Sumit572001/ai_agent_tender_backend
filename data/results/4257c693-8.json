@@ -1,0 +1,592 @@
+{
+  "folder_id": "52a5743b_mmrcl",
+  "folder_name": "MMRCL",
+  "created_at": "2026-10-16T12:45:12.113677",
+  "total_points": 63,
+  "found_points": 13,
+  "missing_points": 50,
+  "accuracy_score": 20.63,
+  "files": [
+    "Volume2CConditionsofcontractonSafetyHealthEnvironmentandWelfare.pdf"
+  ],
+  "doc_summaries": [
+    {
+      "filename": "Volume2CConditionsofcontractonSafetyHealthEnvironmentandWelfare.pdf",
+      "page_count": 341,
+      "total_chars": 99315,
+      "extracted_pages": 40
+    }
+  ],
+  "model_used": "gemini-3.6-flash",
+  "results": [
+    {
+      "id": "crit_1",
+      "category": "General & Project Details",
+      "question": "Tender No",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_2",
+      "category": "General & Project Details",
+      "question": "Type of Contract",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_3",
+      "category": "General & Project Details",
+      "question": "Cost of project",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_4",
+      "category": "Fees & Guarantees",
+      "question": "Tender Fees",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_5",
+      "category": "Fees & Guarantees",
+      "question": "EMD",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_6",
+      "category": "General & Project Details",
+      "question": "Name of Work",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_7",
+      "category": "General & Project Details",
+      "question": "Scope of work",
+      "answer": "• Defines the principal requirements of the Employer in two critical areas during construction, namely Safety and Health and Environmental Management, to be adhered to by contractors, sub-contractors, and any other agencies engaged in construction worksites and associated activities under MMRCL.\n• The Contractor shall be fully responsible for ensuring both Safety and Health as well as Environmental Management in all activities related to the execution of the Contract and take all necessary actions to ensure the safety and well-being of all persons on or adjacent to the site.\n• The works under the document are categorized into:\n  - Category A: All Civil contracts of value more than 500 crore rupees.\n  - Category B: All Civil Contracts of value between 100 crore rupees and 500 crore rupees.\n  - Category C: All Civil Contracts of value less than 100 crore rupees and civil contracts related to finishing works, Pre-Engineered building (PEB) works.\n  - Category D: Track Contracts of Supply, Installation, Testing and Commissioning of Ballast Less Track, Supply of Rails, Fastening System, Turnouts, Scissor Crossovers, etc.\n  - Category E: E&M and Systems Contracts (Platform Screen Doors, AFC system, 25 kV OHE, 33 kV Auxiliary Power Supply, SCADA, automatic moving walkways, ASS cum TSS & HT cabling of RSS, HVAC, etc.).",
+      "status": "Found",
+      "source": "Volume2CConditionsofcontractonSafetyHealthEnvironmentandWelfare.pdf, Page 13, Clause 1.1 (Clauses 1.1.1, 1.1.2 & 1.1.3)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_8",
+      "category": "General & Project Details",
+      "question": "Type of Project/ Building/",
+      "answer": "• Mass Rapid Transit System (MRTS) / Metro Rail Project, covering Underground and Elevated works, Viaducts, Tunnels, Stations, Depots, Track Works, and E&M/Systems installations.",
+      "status": "Found",
+      "source": "Volume2CConditionsofcontractonSafetyHealthEnvironmentandWelfare.pdf, Page 11, List of Abbreviations; Page 13, Clause 1.1.3; Page 22, Table 4.1; Page 23, Clause 5.2.3",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_9",
+      "category": "General & Project Details",
+      "question": "Client",
+      "answer": "Mumbai Metro Rail Corporation Limited (MMRC / MMRCL), E Block, Bandra Kurla Complex, Mumbai – 400051",
+      "status": "Found",
+      "source": "Volume2CConditionsofcontractonSafetyHealthEnvironmentandWelfare.pdf, Page 1, Title Page & Page 14, Clause 1.2.1 (vii)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_10",
+      "category": "General & Project Details",
+      "question": "Executing Agency",
+      "answer": "Mumbai Metro Rail Corporation Limited (MMRCL)",
+      "status": "Found",
+      "source": "Volume2CConditionsofcontractonSafetyHealthEnvironmentandWelfare.pdf, Page 1, Title Page & Page 13, Clause 1.1.1",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_11",
+      "category": "General & Project Details",
+      "question": "Architect & Preparation of Tender",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_12",
+      "category": "Dates & Timelines",
+      "question": "Publish Date",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_13",
+      "category": "Dates & Timelines",
+      "question": "Pre Bid -meeting & Place",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_14",
+      "category": "Dates & Timelines",
+      "question": "Submission date",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_15",
+      "category": "Dates & Timelines",
+      "question": "Bid Opening Date",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_16",
+      "category": "Dates & Timelines",
+      "question": "Bid Validity",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_17",
+      "category": "Dates & Timelines",
+      "question": "Commencement of project",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_18",
+      "category": "Dates & Timelines",
+      "question": "Time of Completion",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_19",
+      "category": "Commercial & Legal",
+      "question": "Joint Venture (JV)",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_20",
+      "category": "Site & Infrastructure",
+      "question": "Site Location",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_21",
+      "category": "Site & Infrastructure",
+      "question": "Site Visit/ Site Location",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_22",
+      "category": "Site & Infrastructure",
+      "question": "Built up Area",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_23",
+      "category": "Site & Infrastructure",
+      "question": "Site Area",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_24",
+      "category": "Commercial & Payment",
+      "question": "Milestone",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_25",
+      "category": "Commercial & Payment",
+      "question": "Liquidated Damages",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_26",
+      "category": "Commercial & Payment",
+      "question": "Incentive for Early completion",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_27",
+      "category": "Commercial & Payment",
+      "question": "Minimum value of work to be executed interim RA payment",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_28",
+      "category": "Commercial & Payment",
+      "question": "R.A Bill Payments",
+      "answer": "Interim / Monthly payment submitted by the contractor shall be released only upon prior submission of documentary evidence of statutory & Contractual compliance, supported by the monthly labour compliance report in the prescribed appendix format no. – 27.",
+      "status": "Found",
+      "source": "Volume2CConditionsofcontractonSafetyHealthEnvironmentandWelfare.pdf, Page 14, Clause 1.2.1 (vi)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_29",
+      "category": "Commercial & Payment",
+      "question": "Period of Final Measurement",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_30",
+      "category": "Commercial & Payment",
+      "question": "Price Escalation",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_31",
+      "category": "Commercial & Legal",
+      "question": "Stamp Duty for Aggrement",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_32",
+      "category": "Fees & Guarantees",
+      "question": "Retension Money",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_33",
+      "category": "Fees & Guarantees",
+      "question": "Release of Retension Money",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_34",
+      "category": "Fees & Guarantees",
+      "question": "Security Deposite",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_35",
+      "category": "Fees & Guarantees",
+      "question": "Release of Security Deposite",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_36",
+      "category": "Fees & Guarantees",
+      "question": "Performance Security",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_37",
+      "category": "Fees & Guarantees",
+      "question": "Release of Performance Security",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_38",
+      "category": "Commercial & Payment",
+      "question": "Defect liability period",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_39",
+      "category": "Commercial & Payment",
+      "question": "Mobilisation Advance",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_40",
+      "category": "Commercial & Payment",
+      "question": "Interest Rate of Mobilization Advance",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_41",
+      "category": "Commercial & Payment",
+      "question": "Recovery of Mobilisation Advance",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_42",
+      "category": "Commercial & Payment",
+      "question": "Secured advance on materials",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_43",
+      "category": "Commercial & Payment",
+      "question": "% of all overheads and profits",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_44",
+      "category": "Quality & Technical",
+      "question": "List of approved make/Agencies",
+      "answer": "• Option 1: Experts & Agencies For Safety & Health And Environment Services (Appendix 11)\n• Option 2: List Of Agencies For Safety PPEs (Appendix 20)",
+      "status": "Found",
+      "source": "Volume2CConditionsofcontractonSafetyHealthEnvironmentandWelfare.pdf, Page 7 & 8, PART- VI: Appendix (Appendix 11 & Appendix 20)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_45",
+      "category": "Commercial & Payment",
+      "question": "Basic Rate",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_46",
+      "category": "Site & Infrastructure",
+      "question": "Water Supply",
+      "answer": "• Permission for Extraction of Ground Water: Contractor shall obtain necessary permission/clearance for extraction of ground water from Maharashtra Water Resources Regulatory Authority / Brihanmumbai Municipal Corporation (BMC) / Central Ground Water Authority as per Environment (Protection) Act, 1986 / CGWA guidelines.\n• Common Facility & Cost Sharing: Provision of drinking water in contiguous working areas (depots, stations, etc.) is treated as a common interface facility, where co-contractors discuss issues in monthly SHE meetings and share maintenance costs based on contract value or daily average number of workmen.",
+      "status": "Found",
+      "source": "Volume2CConditionsofcontractonSafetyHealthEnvironmentandWelfare.pdf, Page 18 & 20, Clause 3.3.2.4 (Table 3.1) & Clause 7.7.1 / 7.7.3",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_47",
+      "category": "Site & Infrastructure",
+      "question": "Electricity Supply",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_48",
+      "category": "Site & Infrastructure",
+      "question": "Space for labour hutment",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_49",
+      "category": "Site & Infrastructure",
+      "question": "Working Time",
+      "answer": "• Day & Night Time Activities: Contractor shall designate Environment Wardens to supervise and ensure environmental compliance during both day and night time activities (as per site requirement).\n• Training Working Hours: Safety, Health, and Environment training shall be provided free of charge during normal working hours, and trainees shall be paid normal wages during training.\n• Statutory Hours of Work: Requirements relating to hours of work and wages under BOCWA, CLRA, and Maharashtra Govt. Rules are outlined in Appendix No. 2.",
+      "status": "Found",
+      "source": "Volume2CConditionsofcontractonSafetyHealthEnvironmentandWelfare.pdf, Page 14, 17, 24, Clause 3.3.1.2, Clause 6.2.1, & Clause 10.1.17",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_50",
+      "category": "Site & Infrastructure",
+      "question": "Project Documentary Film & Video-Grapy",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_51",
+      "category": "Safety & Environment",
+      "question": "First Aid Facilities & Emergency Set-up",
+      "answer": "• Preparatory Work & Hospital Tie-up: Contractor must finalize hospital tie-up and deploy key position of Occupational Health Officer who shall remain filled till final handover of the project.\n• Emergency Drills: Contractor's site Safety & Health Plan shall include a description of safety & health training courses and emergency drills to be provided, with an outline of syllabus.\n• Inspection of First-Aid & Medical Facilities: Site SHE Committee is responsible for round site inspections to check condition of medical first-aid, occupational health centres, and welfare facilities.",
+      "status": "Found",
+      "source": "Volume2CConditionsofcontractonSafetyHealthEnvironmentandWelfare.pdf, Page 20, 27 & 30, Clause 4.1.3 (vi), 6.1.7.1 & 7.2.1 (xi)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_52",
+      "category": "Quality & Technical",
+      "question": "Material & Samples",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_53",
+      "category": "Quality & Technical",
+      "question": "Material Testing Laboratory",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_54",
+      "category": "Safety & Environment",
+      "question": "Barricading",
+      "answer": "• Key Personnel Requirement: The key position of Barricade Manager shall always remain filled with a competent professional till final handover of the project to MMRC.",
+      "status": "Found",
+      "source": "Volume2CConditionsofcontractonSafetyHealthEnvironmentandWelfare.pdf, Page 15, Clause 6.1.7.1",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_55",
+      "category": "Safety & Environment",
+      "question": "Water spraying",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_56",
+      "category": "Safety & Environment",
+      "question": "Use Of Low-Voc Paints/Adhesives/Sealants",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_57",
+      "category": "Commercial & Legal",
+      "question": "Escrow Account",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_58",
+      "category": "Site & Infrastructure",
+      "question": "Site Signages",
+      "answer": "• Display of Safety & Health Policy: Approved Safety & Health Policy shall be displayed at conspicuous places at work sites in Hindi and a local language understood by the majority of construction workers.\n• Display of Environment Policy: Approved Environment Policy shall be displayed at conspicuous places at work sites in Hindi and a local language understood by the majority of construction workers.\n• Safety Signages: Increasing safety signage is prescribed as part of administrative controls in the hierarchy of risk control.\n• Site Posters: Prohibition of mobile phone use at MMRC construction sites shall be ensured through publicity by posters, training & Toolbox Talk.",
+      "status": "Found",
+      "source": "Volume2CConditionsofcontractonSafetyHealthEnvironmentandWelfare.pdf, Page 19, 20, 22 & 24, Clause 4.1.1, 4.2.1, 5.3.1 (iv) & 9.6",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_59",
+      "category": "Site & Infrastructure",
+      "question": "Office for Client",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_60",
+      "category": "Site & Infrastructure",
+      "question": "Trasportation for Client",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_61",
+      "category": "Quality & Technical",
+      "question": "Plants & Machinery",
+      "answer": "• Option 1: Plant & Machinery In-charge shall be a mandatory member of the Contractor SHE Committee and Site SHE Committee.\n• Option 2: Operators/drivers of Construction Plant, Machinery & other Vehicles (crane/rig machine/MEWP etc.) must be trained for safe equipment operation through the Original Equipment Manufacturer (OEM) before deployment at site.\n• Option 3: Quarterly inspection of Plant & Machines shall be conducted by the P&M In-charge, and maximum permissible age requirements apply as per Appendix 16.",
+      "status": "Found",
+      "source": "Volume2CConditionsofcontractonSafetyHealthEnvironmentandWelfare.pdf, Page 19 Table 7.1 / Table 7.2, Page 23 Clause 10.1.11, Page 26 Clause 11.1.5.1 (v)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_62",
+      "category": "Quality & Technical",
+      "question": "Staff",
+      "answer": "• Key Safety & Health Positions: Key positions including Chief Safety Manager, Safety & Health (Fire) Manager, Safety & Health (Electrical) Manager, Labour Welfare Manager, Barricade Manager, and Occupational Health Officer shall always remain filled with competent professionals till final handover of the project to MMRCL. Chief Safety Manager reports directly to the Chief Project Manager/Leader (Clauses 6.1.6.1 & 6.1.7.1).\n• Environmental Personnel: Chief Environment Officer (appointed within 4 weeks of award), Senior Environment Officer (within 8 weeks of award), and Environment Officer (within 12 weeks of award). Contractor shall also designate Environment Wardens at all stations, batching plants, casting yards, depots, staff quarters, and hostel sites, plus one dedicated Document Controller for Category A & B contracts (Clauses 6.2.1 & 6.2.2.2).\n• Execution Staff / Lifting Engineer: Contractor shall identify execution staff as Lifting Engineer to supervise lifting operations and get them trained to effectively discharge their responsibilities (Clause 10.1.15).\n• Execution Staff / Certified Scaffolder: Contractor shall identify execution staff as Certified Scaffolder to supervise safe erection, use, and dismantling of scaffold/trestle (Clause 10.1.16).\n• Certified Skilled Trades: Minimum 20% competent and certified staff for skilled and semi-skilled trades (Electricians, Welders, Masons, Carpenters, Steel Handlers, Scaffolders, Crane Operators, Construction Vehicle & Plant Operators, Tunnelling workers, etc.) shall be mobilised at all times (Clause 10.1.14 (iii)).\n• Project Management & Engineering Leads: Project Manager leads and chairs the SHE Committee and conducts weekly safety inspections along with department heads (Station Manager/In-charge, Viaduct Manager, Tunnel Manager, Launcher Girder In-charge, Plant & Machinery In-charge, and Site Electrical In-charge) (Clauses 7.4, 7.5, and 11.1.4.2).",
+      "status": "Found",
+      "source": "Volume2CConditionsofcontractonSafetyHealthEnvironmentandWelfare.pdf, Pages 26-29, 31, 35-36, 38-39, Clauses 6.1.1, 6.1.6.1, 6.1.7.1, 6.2.1, 6.2.2.2, 7.4, 7.5, 10.1.14 (iii), 10.1.15, 10.1.16, 11.1.4.2",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_63",
+      "category": "Commercial & Legal",
+      "question": "Force Majure",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    }
+  ],
+  "id": "4257c693-8",
+  "reanalyzed_at": "2026-10-16T12:49:05.334769"
+}

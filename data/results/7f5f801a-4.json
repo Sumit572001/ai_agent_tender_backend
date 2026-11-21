@@ -1,0 +1,613 @@
+{
+  "folder_id": "49ce52b3_rbi_mumbai",
+  "folder_name": "RBI Mumbai",
+  "created_at": "2026-10-26T11:38:33.204722",
+  "total_points": 63,
+  "found_points": 36,
+  "missing_points": 27,
+  "accuracy_score": 57.14,
+  "files": [
+    "1NITPARTA.pdf",
+    "2NITPARTB.pdf",
+    "3NITPARTC.pdf",
+    "Tendernotice_1 (98).pdf"
+  ],
+  "doc_summaries": [
+    {
+      "filename": "1NITPARTA.pdf",
+      "page_count": 170,
+      "total_chars": 114599,
+      "extracted_pages": 40
+    },
+    {
+      "filename": "2NITPARTB.pdf",
+      "page_count": 432,
+      "total_chars": 82178,
+      "extracted_pages": 40
+    },
+    {
+      "filename": "3NITPARTC.pdf",
+      "page_count": 325,
+      "total_chars": 91774,
+      "extracted_pages": 40
+    },
+    {
+      "filename": "Tendernotice_1 (98).pdf",
+      "page_count": 170,
+      "total_chars": 114999,
+      "extracted_pages": 40
+    }
+  ],
+  "model_used": "gemini-3.6-flash",
+  "results": [
+    {
+      "id": "crit_1",
+      "category": "General & Project Details",
+      "question": "Tender No",
+      "answer": "TCIL/Infra/26-27/RBI/Mumbai/01",
+      "status": "Found",
+      "source": "1NITPARTA.pdf, Page 1, Header",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_2",
+      "category": "General & Project Details",
+      "question": "Type of Contract",
+      "answer": "EPC Mode III (Percentage rate composite bid on Engineering, Procurement and Construction turnkey basis)",
+      "status": "Found",
+      "source": "1NITPARTA.pdf, Page 6, Notice Inviting e-Tender & Page 8, Information and Instructions for Bidders, Clause 1",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_3",
+      "category": "General & Project Details",
+      "question": "Cost of project",
+      "answer": "Rs. 356.81 Crore (incl. GST) [Civil: Rs. 280.66 Crore, Electrical: Rs. 76.15 Crore]",
+      "status": "Found",
+      "source": "1NITPARTA.pdf, Page 6, Notice Inviting e-Tender",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_4",
+      "category": "Fees & Guarantees",
+      "question": "Tender Fees",
+      "answer": "Rs 11,800/- (Inclusive of GST) [Rs 10,000 + GST @ 18%], non-refundable. Paid via Demand Draft / Banker's Cheque or prescribed electronic modes (RuPay Debit Card, BHIM-UPI / UPI QR Code, NEFT/RTGS).",
+      "status": "Found",
+      "source": "1NITPARTA.pdf, Page 14, Clauses 5 & 7",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_5",
+      "category": "Fees & Guarantees",
+      "question": "EMD",
+      "answer": "• Amount: Rs. 3.67 Crore (Rupees Three Crore Sixty Seven Lacs only)\n• Accepted Formats: Demand Draft (DD), Fixed Deposit Receipt (FDR), Banker's Cheque, Electronic transfer (NEFT, RTGS, UPI), Bank Guarantee (BG)/e-BG, or Insurance Surety Bond\n• Validity Period: Minimum 180 days",
+      "status": "Found",
+      "source": "1NITPARTA.pdf, Page 14, Clauses 6 & 7",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_6",
+      "category": "General & Project Details",
+      "question": "Name of Work",
+      "answer": "Construction of 200 quarters (i.e. 150 - Grade B/C, 50 - Grade A) and Podium with Amenity & multipurpose hall, including Internal Water Supply, Sanitary Installation, Drainage, Modular Furniture, Internal Electrical Installations, Lifts, Firefighting and Fire-alarm System, D.G. sets, STP, OWC, Substation & Pump house, Rain water Harvesting System, Internal roads with street lighting, Signages, Compound wall, etc. for Reserve Bank of India, Ekta Nagar, Mazagaon, Mumbai",
+      "status": "Found",
+      "source": "1NITPARTA.pdf, Page 6, Notice Inviting e-Tender",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_7",
+      "category": "General & Project Details",
+      "question": "Scope of work",
+      "answer": "• Execution on EPC Mode-III turnkey basis as per GFC/approved drawings including foundation, structure, finishing, and modular furniture.\n• Construction of Tower 1 (G+5 podium parking + 1 amenity podium + 2 service floors + 26 residential floors for 100 Grade B/C units) and Tower 2 (G+4 podium parking + 1 amenity podium + 2 service floors + 26 residential floors for 50 Grade A & 50 Grade B/C units).\n• Construction of a separate Multipurpose Hall building, Utility & Service Areas (DG, Substation, OWC, Entrance Gate, Security Cabin), and Compound Wall.\n• Structural execution using Monolithic Concrete Construction with Aluminium Formwork Technology above 1st floor slab level, and conventional RCC framed structure up to 1st floor slab level.\n• Execution of complete MEPF services: Internal/external water supply, sanitary, drainage, STP, OWC, UGT, rainwater harvesting, HT/LT substation, DG sets, UPS, HVAC, lifts, firefighting & fire alarm systems, CCTV, FTTH, BMS, EV chargers, rooftop solar PV & solar water heating systems, internal roads, street lighting, landscape lighting, and signages.\n• Compliance with IGBC Platinum rating requirements.",
+      "status": "Found",
+      "source": "1NITPARTA.pdf, Page 32-37, Section-I Brief Particulars of Work & 2NITPARTB.pdf, Page 172-179, Scope of Civil Works",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_8",
+      "category": "General & Project Details",
+      "question": "Type of Project/ Building/",
+      "answer": "Residential High-Rise Quarters & Multipurpose / Amenity Complex (Multi-Storied RCC framed structure residential towers, podium, multipurpose hall, and utility structures)",
+      "status": "Found",
+      "source": "1NITPARTA.pdf, Page 6, Notice Inviting e-Tender & Page 32, Section-I",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_9",
+      "category": "General & Project Details",
+      "question": "Client",
+      "answer": "Reserve Bank of India (RBI), Mumbai",
+      "status": "Found",
+      "source": "1NITPARTA.pdf, Page 6, Notice Inviting e-Tender",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_10",
+      "category": "General & Project Details",
+      "question": "Executing Agency",
+      "answer": "Telecommunications Consultants India Ltd. (TCIL) acting as Project Management Consultant (PMC) on behalf of Reserve Bank of India (RBI)",
+      "status": "Found",
+      "source": "1NITPARTA.pdf, Page 6, Notice Inviting e-Tender",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_11",
+      "category": "General & Project Details",
+      "question": "Architect & Preparation of Tender",
+      "answer": "VK: a architecture LLP (Principal Architect & Architect on Record). The working drawings for Architectural, Structural, Civil, Interior/Furniture, and MEP services are prepared by the Project Architect/Consultant appointed by TCIL.",
+      "status": "Found",
+      "source": "Document: 1NITPARTA.pdf, Page 31, Glossary & Page 32, Section-I Clause 4; Document: 2NITPARTB.pdf, Page 175, Chapter 1 Clause 1(xi)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_12",
+      "category": "Dates & Timelines",
+      "question": "Publish Date",
+      "answer": "22.10.2026",
+      "status": "Found",
+      "source": "Document: 1NITPARTA.pdf, Page 1, Cover Page & Page 6, Notice Inviting e-Tender",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_13",
+      "category": "Dates & Timelines",
+      "question": "Pre Bid -meeting & Place",
+      "answer": "• Option 1: 29.10.2026 at 11:00 hrs at TCIL Bhawan, Greater Kailash-1, New Delhi-110048\n• Option 2: 29.11.2026 at 11:00 hrs at TCIL Bhawan, Greater Kailash-1, New Delhi-110048",
+      "status": "Found",
+      "source": "Document: 1NITPARTA.pdf, Page 6, Notice Inviting e-Tender & Page 8, Information and Instructions for Bidders Item 7",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_14",
+      "category": "Dates & Timelines",
+      "question": "Submission date",
+      "answer": "12.11.2026 up to 15:00 hrs",
+      "status": "Found",
+      "source": "Document: 1NITPARTA.pdf, Page 6 & 7, Notice Inviting e-Tender & Page 8, Item 8",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_15",
+      "category": "Dates & Timelines",
+      "question": "Bid Opening Date",
+      "answer": "13.11.2026 at 15:00 hrs (Technical Bid Opening)",
+      "status": "Found",
+      "source": "Document: 1NITPARTA.pdf, Page 7, Notice Inviting e-Tender & Page 8, Item 9",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_16",
+      "category": "Dates & Timelines",
+      "question": "Bid Validity",
+      "answer": "180 days or more from the last date of receipt of bids (for Bid Security / EMD)",
+      "status": "Found",
+      "source": "Document: 1NITPARTA.pdf, Page 14, Clause 6 & Page 25, Clause 9",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_17",
+      "category": "Dates & Timelines",
+      "question": "Commencement of project",
+      "answer": "From the date of start as defined in Schedule 'F' or from the first date of handing over of the site, whichever is later.",
+      "status": "Found",
+      "source": "Document: 1NITPARTA.pdf, Page 24, Notice for e-Bidding Clause 3",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_18",
+      "category": "Dates & Timelines",
+      "question": "Time of Completion",
+      "answer": "33 (Thirty-Three) Months",
+      "status": "Found",
+      "source": "Document: 1NITPARTA.pdf, Page 6, Notice Inviting e-Tender, Page 8 Item 6, & Page 24 Clause 3",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_19",
+      "category": "Commercial & Legal",
+      "question": "Joint Venture (JV)",
+      "answer": "• Joint ventures/Consortium and Special Purpose Vehicles are not accepted as bidders.\n• If eligible work has been executed by a Joint Venture through one or more individual firm(s), cost of completed work shall be distributed among individual firms in proportion to their share in JV for prequalification.\n• In case of Joint Venture, all partners of the joint venture should sign the Integrity Pact.",
+      "status": "Found",
+      "source": "1NITPARTA.pdf, Page 9 Clause 1, Page 10 Clause Note(vi), Page 17 Clause 22(i), Page 21 Clause 1.2.1, Page 39 Clause 2.3",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_20",
+      "category": "Site & Infrastructure",
+      "question": "Site Location",
+      "answer": "Ekta Nagar, Mazagaon, Mumbai.",
+      "status": "Found",
+      "source": "1NITPARTA.pdf, Page 8 Item 3 & Page 32 Section-I Clause 2",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_21",
+      "category": "Site & Infrastructure",
+      "question": "Site Visit/ Site Location",
+      "answer": "• Intending bidders are advised to inspect and examine the site and its surroundings and satisfy themselves before submitting their tenders as to the nature of the ground and sub-soil (so far as is practicable), the form and nature of the site, means of access to the site, accommodation required, etc.\n• The bidder is advised to visit the site of work, at his own cost, and examine it and its surroundings to satisfy himself, collect all information that he considers necessary for proper assessment of the prospective assignment and for quoting their rate judiciously.",
+      "status": "Found",
+      "source": "1NITPARTA.pdf, Page 16 Clause 20, Page 26-27 Clause 12, Page 40 Section-II Clause 6",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_22",
+      "category": "Site & Infrastructure",
+      "question": "Built up Area",
+      "answer": "General parameters for plinth area:\n• Parking Area (Tower T1 & T2) - G+5 Podium Parking: 22,178.00 Sq m\n• Tower T1 (For Grade 'B' & 'C' officers - 100 Flats): 20,539.00 Sq m\n• Tower T2 (For Grade 'B' & 'C' officers - 50 Flats and 50 Flats of Grade-A Officers): 18,985.00 Sq m\n• Multipurpose hall: 607.00 Sq m\n• Utility & Service Areas G.F./as Specified /as shown in layout: 473.00 Sq m",
+      "status": "Found",
+      "source": "1NITPARTA.pdf, Page 34-35 Section-I Clause 22",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_23",
+      "category": "Site & Infrastructure",
+      "question": "Site Area",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_24",
+      "category": "Commercial & Payment",
+      "question": "Milestone",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_25",
+      "category": "Commercial & Payment",
+      "question": "Liquidated Damages",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_26",
+      "category": "Commercial & Payment",
+      "question": "Incentive for Early completion",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_27",
+      "category": "Commercial & Payment",
+      "question": "Minimum value of work to be executed interim RA payment",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_28",
+      "category": "Commercial & Payment",
+      "question": "R.A Bill Payments",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_29",
+      "category": "Commercial & Payment",
+      "question": "Period of Final Measurement",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_30",
+      "category": "Commercial & Payment",
+      "question": "Price Escalation",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_31",
+      "category": "Commercial & Legal",
+      "question": "Stamp Duty for Aggrement",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_32",
+      "category": "Fees & Guarantees",
+      "question": "Retension Money",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_33",
+      "category": "Fees & Guarantees",
+      "question": "Release of Retension Money",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_34",
+      "category": "Fees & Guarantees",
+      "question": "Security Deposite",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_35",
+      "category": "Fees & Guarantees",
+      "question": "Release of Security Deposite",
+      "answer": "Security deposit, performance guarantees and any other deposits or recoveries etc. shall be released only on completion of full work under the contract agreement as per terms of General conditions of contract for EPC works.",
+      "status": "Found",
+      "source": "1NITPARTA.pdf, Page 37, Section-I Brief Particulars of the Work Clause 31(c)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_36",
+      "category": "Fees & Guarantees",
+      "question": "Performance Security",
+      "answer": "The contractor whose bid is accepted will be required to furnish performance guarantee of 5 % (Five Percent) of the Estimated cost put to tender (ECPT) or bid amount whichever is higher, within the period specified in Schedule F.",
+      "status": "Found",
+      "source": "1NITPARTA.pdf, Page 25, Notice for e-Bidding Clause 11(A)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_37",
+      "category": "Fees & Guarantees",
+      "question": "Release of Performance Security",
+      "answer": "• Option 1: Performance Guarantee shall remain valid for a minimum period of six months beyond the date of completion of all contractual obligations as per GCC.\n• Option 2: Security deposit, performance guarantees and any other deposits or recoveries etc. shall be released only on completion of full work under the contract agreement as per terms of General conditions of contract for EPC works.",
+      "status": "Found",
+      "source": "1NITPARTA.pdf, Page 25 & Page 37, Notice for e-Bidding Clause 11(A) & Section-I Clause 31(c)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_38",
+      "category": "Commercial & Payment",
+      "question": "Defect liability period",
+      "answer": "• Option 1: 24 Months after the date of actual completion and handing over of work to client, as recorded by Engineer-in-charge. However, Contractor shall own the responsibility of satisfactory performance of the completed work for a period of 5 (five) years including the Defect Liability Period of 2 years.\n• Option 2: The contractor shall have obligation to rectify all defects in the structural elements or any other part of building/structure/road etc. due to deficiency at his own cost for 10 (Ten) years from the date of completion and handing over of work to client, as recorded in the completion certificate by the Engineer-in-Charge.",
+      "status": "Found",
+      "source": "1NITPARTA.pdf, Page 8 & Page 33-34, Information and Instructions for Bidders Item 11 & Section-I Clause 14",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_39",
+      "category": "Commercial & Payment",
+      "question": "Mobilisation Advance",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_40",
+      "category": "Commercial & Payment",
+      "question": "Interest Rate of Mobilization Advance",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_41",
+      "category": "Commercial & Payment",
+      "question": "Recovery of Mobilisation Advance",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_42",
+      "category": "Commercial & Payment",
+      "question": "Secured advance on materials",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_43",
+      "category": "Commercial & Payment",
+      "question": "% of all overheads and profits",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_44",
+      "category": "Quality & Technical",
+      "question": "List of approved make/Agencies",
+      "answer": "• Approved/Preferred Makes Lists are specified in the tender document for:\n  - Plumbing/Sanitary Works (Part-B, Page 451)\n  - Civil Works (Part-B, Page 464)\n  - Modular Kitchen / Wardrobes / Furniture (Part-B, Page 602)\n  - E&M Works (Part-C, Page 916)\n• Main contractor must associate with specialized agencies for specialized components:\n  - Water Proofing Treatment works\n  - Custom made wooden furniture (factory Made)\n  - Piling work\n  - Specialized E&M works (HVAC, DG set, Lifts, EPBAX, STP, CCTV, Solar PV System, UPS)",
+      "status": "Found",
+      "source": "1NITPARTA.pdf, Page 2-4, Index & Page 13-14, Clause 1(ix)-(x)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_45",
+      "category": "Commercial & Payment",
+      "question": "Basic Rate",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_46",
+      "category": "Site & Infrastructure",
+      "question": "Water Supply",
+      "answer": "• The contractor shall be responsible for arranging and maintaining at his own cost water required for executing the work, testing, commissioning, and facilities for workers.\n• All applicable water charges for execution of work, testing, and commissioning shall be arranged by the contractor at prevailing charges payable to local authorities.\n• Only potable water shall be used in the work.",
+      "status": "Found",
+      "source": "1NITPARTA.pdf, Page 16, Clause 20; 2NITPARTB.pdf, Page 10, Section 1.0 General; 3NITPARTC.pdf, Page 11, Clause 21 & Page 23, Clause 13",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_47",
+      "category": "Site & Infrastructure",
+      "question": "Electricity Supply",
+      "answer": "• The contractor shall be responsible for arranging and maintaining at his own cost electrical power supply required for construction activities, testing, and commissioning.\n• All applicable electrical power supply charges payable to local authorities (including cable laying and terminations from the tap-off point provided by BEST) shall be borne by the contractor at no extra payment.",
+      "status": "Found",
+      "source": "1NITPARTA.pdf, Page 16, Clause 20; 3NITPARTC.pdf, Page 11, Clause 21 & Page 23, Clause 11 & 13",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_48",
+      "category": "Site & Infrastructure",
+      "question": "Space for labour hutment",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_49",
+      "category": "Site & Infrastructure",
+      "question": "Working Time",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_50",
+      "category": "Site & Infrastructure",
+      "question": "Project Documentary Film & Video-Grapy",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_51",
+      "category": "Safety & Environment",
+      "question": "First Aid Facilities & Emergency Set-up",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_52",
+      "category": "Quality & Technical",
+      "question": "Material & Samples",
+      "answer": "• Option 1: Samples of all materials being used in the work, methodology and sample of work of all items shall be got approved from the Engineer-in-charge well in advance before procuring and starting execution at site.\n• Option 2: Contractor shall ensure that all the samples of the materials, approved make or otherwise shall be got approved from the Engineer-in-Charge in advance before use in the work.\n• Option 3: Before commencement of any work at site, the Contractor shall submit material submittals (datasheets, design calculations, sample test certificates, compliance statements) for review and approval by Engineer-in-charge. No work shall be commenced without written approval.\n• Option 4: The Contractor shall prepare and execute mock-ups for all typical MEPF materials of at least 01 make from the list of preferred makes, equipment, fixtures, fittings, and finishes proposed to be used in the project within or outside the sample flat to be constructed on the 1st residential floor without extra cost.",
+      "status": "Found",
+      "source": "1NITPARTA.pdf, Page 16, Clause 17; Page 34, Clause 17 & 3NITPARTC.pdf, Page 6-7, Clauses 3 & 4",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_53",
+      "category": "Quality & Technical",
+      "question": "Material Testing Laboratory",
+      "answer": "• Option 1: Provision for site laboratory with List of Machineries, Tools & Plants as per Appendix-II and List of Testing Equipment as per Appendix-I.\n• Option 2: All the testing charges of all materials shall be borne by the contractor including all incidental charges like cost of material, packing and transportation etc. all as per the required frequency of testing as per CPWD specification, IS codes and direction of Engineer-in-charge.",
+      "status": "Found",
+      "source": "1NITPARTA.pdf, Page 2, Index (Part-II Sl. 5 & 6) & Page 16, Clause 18",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_54",
+      "category": "Safety & Environment",
+      "question": "Barricading",
+      "answer": "Barricading of all the areas as per requirement of NGT guidelines etc. and dismantling of its foundation, barricading and their removal after completion of work.",
+      "status": "Found",
+      "source": "1NITPARTA.pdf, Page 36, Section-I Brief Particulars of the Work, Clause 23 (u)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_55",
+      "category": "Safety & Environment",
+      "question": "Water spraying",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_56",
+      "category": "Safety & Environment",
+      "question": "Use Of Low-Voc Paints/Adhesives/Sealants",
+      "answer": "Internal finishing: 6 mm thick white cement-based polymer modified self-curing mortar over RCC surface/ 12mm thick white cement based polymer modified self-curing mortar over masonry + Putty + Primer + Premium Acrylic Emulsion Paint (Low VOC) as per client.",
+      "status": "Found",
+      "source": "2NITPARTB.pdf, Page 39-40, Schedule of Civil Items and Specifications, Item 10.1 (a)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_57",
+      "category": "Commercial & Legal",
+      "question": "Escrow Account",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_58",
+      "category": "Site & Infrastructure",
+      "question": "Site Signages",
+      "answer": "• Internal roads with street lighting, Signages, Compound wall, etc.\n• Development of site: levelling, internal roads & paths, filtered water supply, road marking, street lighting, sign board, water treatment plant, external electrical service connection, Solar lighting, Solar water heating system, internal signages & external signages.\n• The detailed drawing for signages including mandatory signages inside and outside building as per guideline of NBC 2026/Fire NOC conditions with approved make and design with LED backlight shall be prepared by contractor and submitted for approval before execution at site from Engineer-in charge.\n• The detailed drawing for Name board of building with 2 feet (600mm) letter height SS316 grade with LED backlight shall be prepared by contractor and submitted for approval before execution at site from Engineer-in charge.\n• The detailed drawing for Numbering of Rooms on SS plate grade 316 by itching on size of plate 150 X 75 mm shall be prepared by contractor and submitted for approval before execution at site from Engineer-in charge.",
+      "status": "Found",
+      "source": "1NITPARTA.pdf, Page 1 & Page 36, Clause 23 (v); 2NITPARTB.pdf, Page 7-8, Clause 1 (xxviii)-(xxx)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_59",
+      "category": "Site & Infrastructure",
+      "question": "Office for Client",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_60",
+      "category": "Site & Infrastructure",
+      "question": "Trasportation for Client",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_61",
+      "category": "Quality & Technical",
+      "question": "Plants & Machinery",
+      "answer": "• The cost of labour, material, tools and plants and machinery required for execution of the whole project as per attached layout plans and drawings is within the scope of this work.\n• The bidder shall be responsible for arranging and maintaining at his own cost all materials, tools & plants, water, electricity access, facilities for workers and all other services required for executing the work unless otherwise specifically provided for in the contract documents.\n• Programme of procurement of machinery / equipment having adequate capacity, commensurate with the quantum of work to be done within the stipulated period by the Agency.\n• All tools, tackle, scaffolding and staging required for erection and assembly of the equipment and installation covered in the contract shall be obtained by the contractor himself. The minimum requirements of tools and spare parts shall be referred in Appendix II in Part A.",
+      "status": "Found",
+      "source": "1NITPARTA.pdf, Page 16, Clause 20; Page 26, Clause 11(D)(i)(d); Page 33, Clause 7; 3NITPARTC.pdf, Page 10, Clause 6",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_62",
+      "category": "Quality & Technical",
+      "question": "Staff",
+      "answer": "• Graduate Engineers: The Contractor shall be fully responsible for the execution and supervision of all works and shall engage Graduate Engineers to undertake work in accordance with statutory requirements and conditions of this contract.\n• Supervisory Staff: The contractor shall employ Supervisory staff as per NIT provision who will be constantly in touch with the department and sign the site order book.\n• Safety Engineer & Supervisor: A competent, qualified, and authorized Safety Engineer shall be on the site whenever the contractor's men are at work. The supervisor shall ensure all plant, machinery, and safety appliances meet applicable standards.",
+      "status": "Found",
+      "source": "2NITPARTB.pdf, Page 6, Scope of Civil Works Clause 1(xvi) & 3NITPARTC.pdf, Page 14 & 22, Subhead-1 Clause 7.1(2) & Clause 27",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_63",
+      "category": "Commercial & Legal",
+      "question": "Force Majure",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    }
+  ],
+  "id": "7f5f801a-4",
+  "reanalyzed_at": "2026-10-26T11:43:22.679885"
+}

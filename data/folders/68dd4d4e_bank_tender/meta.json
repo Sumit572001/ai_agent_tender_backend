@@ -1,0 +1,78 @@
+{
+  "id": "68dd4d4e_bank_tender",
+  "name": "Bank Tender",
+  "description": "Date :- 29/9/26",
+  "department": "",
+  "created_at": "2026-09-29T17:31:33.143592",
+  "file_count": 11,
+  "files": [
+    "19 BOQ_Combined__compressed.pdf",
+    "21 Soil investigation report_compressed.pdf",
+    "23 Technical Specification_CB_Part_1_compressed.pdf",
+    "24 Technical Specification_CB_Part_2_compressed.pdf",
+    "25 Map location and Site layout_compressed.pdf",
+    "26 List of Approved Makes_compressed.pdf",
+    "27 Presigned Integrity Pact_compressed.pdf",
+    "28 SCC_compressed.pdf",
+    "ePublishing System, Government of India_compressed.pdf",
+    "GCC Construction Works 2026 Contractor with 4 amendments_compressed.pdf",
+    "NIT Canara Bank_compressed.pdf"
+  ],
+  "file_details": [
+    {
+      "name": "19 BOQ_Combined__compressed.pdf",
+      "size_bytes": 2392918,
+      "size_mb": 2.28
+    },
+    {
+      "name": "21 Soil investigation report_compressed.pdf",
+      "size_bytes": 1678435,
+      "size_mb": 1.6
+    },
+    {
+      "name": "23 Technical Specification_CB_Part_1_compressed.pdf",
+      "size_bytes": 4294696,
+      "size_mb": 4.1
+    },
+    {
+      "name": "24 Technical Specification_CB_Part_2_compressed.pdf",
+      "size_bytes": 27919693,
+      "size_mb": 26.63
+    },
+    {
+      "name": "25 Map location and Site layout_compressed.pdf",
+      "size_bytes": 1557550,
+      "size_mb": 1.49
+    },
+    {
+      "name": "26 List of Approved Makes_compressed.pdf",
+      "size_bytes": 7610683,
+      "size_mb": 7.26
+    },
+    {
+      "name": "27 Presigned Integrity Pact_compressed.pdf",
+      "size_bytes": 1904587,
+      "size_mb": 1.82
+    },
+    {
+      "name": "28 SCC_compressed.pdf",
+      "size_bytes": 2856827,
+      "size_mb": 2.72
+    },
+    {
+      "name": "ePublishing System, Government of India_compressed.pdf",
+      "size_bytes": 54220,
+      "size_mb": 0.05
+    },
+    {
+      "name": "GCC Construction Works 2026 Contractor with 4 amendments_compressed.pdf",
+      "size_bytes": 3895113,
+      "size_mb": 3.71
+    },
+    {
+      "name": "NIT Canara Bank_compressed.pdf",
+      "size_bytes": 237891,
+      "size_mb": 0.23
+    }
+  ]
+}

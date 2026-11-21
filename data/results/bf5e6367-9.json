@@ -1,0 +1,656 @@
+{
+  "folder_id": "68d520bb_bank_tender",
+  "folder_name": "bank tender",
+  "created_at": "2026-09-28T18:13:55.215379",
+  "total_points": 63,
+  "found_points": 48,
+  "missing_points": 15,
+  "accuracy_score": 76.19,
+  "files": [
+    "19 BOQ_Combined__compressed.pdf",
+    "21 Soil investigation report_compressed.pdf",
+    "23 Technical Specification_CB_Part_1_compressed.pdf",
+    "24 Technical Specification_CB_Part_2_compressed.pdf",
+    "25 Map location and Site layout_compressed.pdf",
+    "26 List of Approved Makes_compressed.pdf",
+    "27 Presigned Integrity Pact_compressed.pdf",
+    "28 SCC_compressed.pdf",
+    "ePublishing System, Government of India_compressed.pdf",
+    "GCC Construction Works 2026 Contractor with 4 amendments_compressed.pdf",
+    "NIT Canara Bank_compressed.pdf"
+  ],
+  "doc_summaries": [
+    {
+      "filename": "26 List of Approved Makes_compressed.pdf",
+      "page_count": 40,
+      "total_chars": 0,
+      "extracted_pages": 0
+    },
+    {
+      "filename": "23 Technical Specification_CB_Part_1_compressed.pdf",
+      "page_count": 482,
+      "total_chars": 94636,
+      "extracted_pages": 40
+    },
+    {
+      "filename": "24 Technical Specification_CB_Part_2_compressed.pdf",
+      "page_count": 482,
+      "total_chars": 54450,
+      "extracted_pages": 40
+    },
+    {
+      "filename": "25 Map location and Site layout_compressed.pdf",
+      "page_count": 3,
+      "total_chars": 3673,
+      "extracted_pages": 3
+    },
+    {
+      "filename": "19 BOQ_Combined__compressed.pdf",
+      "page_count": 282,
+      "total_chars": 161716,
+      "extracted_pages": 40
+    },
+    {
+      "filename": "21 Soil investigation report_compressed.pdf",
+      "page_count": 79,
+      "total_chars": 69085,
+      "extracted_pages": 39
+    },
+    {
+      "filename": "27 Presigned Integrity Pact_compressed.pdf",
+      "page_count": 10,
+      "total_chars": 0,
+      "extracted_pages": 0
+    },
+    {
+      "filename": "28 SCC_compressed.pdf",
+      "page_count": 13,
+      "total_chars": 0,
+      "extracted_pages": 0
+    },
+    {
+      "filename": "ePublishing System, Government of India_compressed.pdf",
+      "page_count": 2,
+      "total_chars": 2942,
+      "extracted_pages": 2
+    },
+    {
+      "filename": "GCC Construction Works 2026 Contractor with 4 amendments_compressed.pdf",
+      "page_count": 189,
+      "total_chars": 89399,
+      "extracted_pages": 38
+    }
+  ],
+  "model_used": "gemini-3.6-flash",
+  "results": [
+    {
+      "id": "crit_1",
+      "category": "General & Project Details",
+      "question": "Tender No",
+      "answer": "• Tender Reference Number: NBCC/CPG/CB/Bengaluru/2026/594\n• Tender ID: 2026_NBCC_851824_1",
+      "status": "Found",
+      "source": "ePublishing System, Government of India_compressed.pdf, Page 1, Basic Details",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_2",
+      "category": "General & Project Details",
+      "question": "Type of Contract",
+      "answer": "Item Rate",
+      "status": "Found",
+      "source": "ePublishing System, Government of India_compressed.pdf, Page 1, Basic Details",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_3",
+      "category": "General & Project Details",
+      "question": "Cost of project",
+      "answer": "₹ 3,49,00,95,900 (Rupees Three Hundred Forty-Nine Crore Nine Lakh Fifty-Nine Thousand Nine Hundred only)",
+      "status": "Found",
+      "source": "ePublishing System, Government of India_compressed.pdf, Page 1, Work /Item(s)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_4",
+      "category": "Fees & Guarantees",
+      "question": "Tender Fees",
+      "answer": "• Amount: ₹ 2,36,000 (inclusive of GST)\n• Payment Mode: Online e-payment gateway\n• Payable To: NBCC India Ltd, New Delhi\n• Exemption Allowed: Yes",
+      "status": "Found",
+      "source": "ePublishing System, Government of India_compressed.pdf, Page 1, Tender Fee Details",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_5",
+      "category": "Fees & Guarantees",
+      "question": "EMD",
+      "answer": "• Amount: ₹ 3,49,00,959\n• Payment Mode/Format: Online e-payment gateway (RTGS / ECS / NEFT) or Bank Guarantee (BG) from a Nationalised or Scheduled Commercial Bank\n• Payable To: NBCC India Ltd, New Delhi\n• Exemption Allowed: No",
+      "status": "Found",
+      "source": "ePublishing System, Government of India_compressed.pdf, Page 1, EMD Fee Details",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_6",
+      "category": "General & Project Details",
+      "question": "Name of Work",
+      "answer": "Construction of Annex Head Office Building for Canara Bank at Manyata Tech Park, Bengaluru",
+      "status": "Found",
+      "source": "ePublishing System, Government of India_compressed.pdf, Page 1, Work /Item(s)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_7",
+      "category": "General & Project Details",
+      "question": "Scope of work",
+      "answer": "• Architectural Planning & Finishing works\n• Civil & Structural Design / Execution\n• HVAC Systems (High & Low Side)\n• Internal & External Electrical Systems, Solar Power Generation, EV System, UPS System\n• Internal & External Water Supply, Drainage & Plumbing Systems (STP, UGT & Pump Room)\n• Fire Fighting System & Fire Alarm/Detection System\n• Elevators / Lift Works\n• IT Systems, CCTV, Access Control, PA & ELV Systems\n• Internal & External Signage System\n• Interior Works, Furniture & Acoustic Systems\n• Façade Work & Façade/Decorative Lighting\n• Miscellaneous Works (Landscape, External Development, Shoring, Stack Parking & Concessionaire works)",
+      "status": "Found",
+      "source": "23 Technical Specification_CB_Part_1_compressed.pdf, Page 3, Section A",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_8",
+      "category": "General & Project Details",
+      "question": "Type of Project/ Building/",
+      "answer": "• Classification: Commercial / Non-Residential Office Building\n• Structure Type: High-rise Head Office Annex Building (3 Basements + Ground + 29 Floors)",
+      "status": "Found",
+      "source": "24 Technical Specification_CB_Part_2_compressed.pdf, Page 35, Section 1 (General Technical Requirements)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_9",
+      "category": "General & Project Details",
+      "question": "Client",
+      "answer": "Canara Bank",
+      "status": "Found",
+      "source": "23 Technical Specification_CB_Part_1_compressed.pdf, Page 1, Title Page",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_10",
+      "category": "General & Project Details",
+      "question": "Executing Agency",
+      "answer": "National Buildings Construction Corporation Limited (NBCC (India) Limited)",
+      "status": "Found",
+      "source": "ePublishing System, Government of India_compressed.pdf, Page 1, Basic Details",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_11",
+      "category": "General & Project Details",
+      "question": "Architect & Preparation of Tender",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_12",
+      "category": "Dates & Timelines",
+      "question": "Publish Date",
+      "answer": "22-Sep-2026 11:30 AM",
+      "status": "Found",
+      "source": "ePublishing System, Government of India_compressed.pdf, Page 1, Critical Dates",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_13",
+      "category": "Dates & Timelines",
+      "question": "Pre Bid -meeting & Place",
+      "answer": "28-Sep-2026 12:00 PM at 1st Floor, NBCC Bhawan, Lodhi Road, New Delhi 110003",
+      "status": "Found",
+      "source": "ePublishing System, Government of India_compressed.pdf, Page 1, Work /Item(s)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_14",
+      "category": "Dates & Timelines",
+      "question": "Submission date",
+      "answer": "21-Oct-2026 11:00 AM",
+      "status": "Found",
+      "source": "ePublishing System, Government of India_compressed.pdf, Page 1, Critical Dates",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_15",
+      "category": "Dates & Timelines",
+      "question": "Bid Opening Date",
+      "answer": "21-Oct-2026 11:30 AM",
+      "status": "Found",
+      "source": "ePublishing System, Government of India_compressed.pdf, Page 1, Critical Dates",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_16",
+      "category": "Dates & Timelines",
+      "question": "Bid Validity",
+      "answer": "150 Days from the date of opening of tender",
+      "status": "Found",
+      "source": "GCC Construction Works 2026 Contractor with 4 amendments_compressed.pdf, Page 18, Section 1, Memorandum (Annexure-I), Sl. No. 10",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_17",
+      "category": "Dates & Timelines",
+      "question": "Commencement of project",
+      "answer": "Reckoned from 10 days after the date of issue of Letter of Award",
+      "status": "Found",
+      "source": "GCC Construction Works 2026 Contractor with 4 amendments_compressed.pdf, Page 18, Section 1, Memorandum (Annexure-I), Sl. No. 14",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_18",
+      "category": "Dates & Timelines",
+      "question": "Time of Completion",
+      "answer": "720 Days",
+      "status": "Found",
+      "source": "ePublishing System, Government of India_compressed.pdf, Page 1, Work /Item(s)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_19",
+      "category": "Commercial & Legal",
+      "question": "Joint Venture (JV)",
+      "answer": "Joint-venture / consortia of firms / companies and foreign bidders are not eligible to quote for the Tender.",
+      "status": "Found",
+      "source": "GCC Construction Works 2026 Contractor with 4 amendments_compressed.pdf, Page 11, Section 1, Notice Inviting e-Tender (NIT), Clause 2.0 A iv",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_20",
+      "category": "Site & Infrastructure",
+      "question": "Site Location",
+      "answer": "CA-2, Manayata Residency, Manyata Tech Park, Thanisandra, Bengaluru, Pincode 560045 (Google Coordinates: 13.053478559809621, 77.62014079662707)",
+      "status": "Found",
+      "source": "25 Map location and Site layout_compressed.pdf, Page 1 & Page 3",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_21",
+      "category": "Site & Infrastructure",
+      "question": "Site Visit/ Site Location",
+      "answer": "• Site Location: CA-2, Manayata Residency, Manyata Tech Park, Thanisandra, Bengaluru (Google Coordinates: 13.053478559809621, 77.62014079662707).\n• Site Visit Conditions: Tenderers are advised to visit the site and its surroundings prior to tendering to satisfy themselves regarding local conditions, working constraints, access roads, availability of water & power supply, taxes/duties, and weather/contingencies. Tenderers are deemed to have considered site conditions whether inspected or not, and no extra charges/claims shall be entertained.\n• Site Handover: Site for construction may be made available in phases as per availability and progress of work. In case of delay in handing over the site, NBCC shall only consider suitable Extension of Time (EOT) and no price revision or compensation towards idleness of labor/equipment shall be entertained.",
+      "status": "Found",
+      "source": "Document: 25 Map location and Site layout_compressed.pdf, Page 1 & 3; Document: GCC Construction Works 2026 Contractor with 4 amendments_compressed.pdf, Page 24-25, ITT Clause 19.0, 21.1 & 21.2",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_22",
+      "category": "Site & Infrastructure",
+      "question": "Built up Area",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_23",
+      "category": "Site & Infrastructure",
+      "question": "Site Area",
+      "answer": "• Total Boundary Area: 5,037.45 Sq.m. / 54,221.42 Sq.ft. (1.09.79 Acre Guntas).\n• Location: Plot CA-2, Manayata Residency, Manyata Tech Park, Thanisandra, Bengaluru.",
+      "status": "Found",
+      "source": "Document: 25 Map location and Site layout_compressed.pdf, Page 3, Boundary Area Statement",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_24",
+      "category": "Commercial & Payment",
+      "question": "Milestone",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_25",
+      "category": "Commercial & Payment",
+      "question": "Liquidated Damages",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_26",
+      "category": "Commercial & Payment",
+      "question": "Incentive for Early completion",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_27",
+      "category": "Commercial & Payment",
+      "question": "Minimum value of work to be executed interim RA payment",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_28",
+      "category": "Commercial & Payment",
+      "question": "R.A Bill Payments",
+      "answer": "• Security Deposit / Retention Money: 5% of the gross value of each running/final bill shall be deducted.\n• Mobilization Advance Interest: Simple Interest Rate @ 10% Per Annum applies on mobilization/other advances.\n• Specialized Works Guarantee Withholding: 5% of the cost of specialized civil works shall be withheld and released after 5 years.\n• Payment Basis: Bidders quote total cost in tender including all works as per specifications; individual items of work will not be measured and paid separately.",
+      "status": "Found",
+      "source": "Document: GCC Construction Works 2026 Contractor with 4 amendments_compressed.pdf, Page 18, Annexure-I Memorandum, Sl. No. 8 & 13; Document: 23 Technical Specification_CB_Part_1_compressed.pdf, Page 8 & 9",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_29",
+      "category": "Commercial & Payment",
+      "question": "Period of Final Measurement",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_30",
+      "category": "Commercial & Payment",
+      "question": "Price Escalation",
+      "answer": "All rates as per Bill of Quantities (BOQ) quoted by contractor shall be firm and fixed for entire contract period as well as extended period for completion of the works. No escalation shall be applicable on this contract.",
+      "status": "Found",
+      "source": "Document: GCC Construction Works 2026 Contractor with 4 amendments_compressed.pdf, Page 19, Annexure-I Memorandum, Sl. No. 17 (CC / Clause 7.0)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_31",
+      "category": "Commercial & Legal",
+      "question": "Stamp Duty for Aggrement",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_32",
+      "category": "Fees & Guarantees",
+      "question": "Retension Money",
+      "answer": "5% (Five Percent Only) of the gross value of each running/final bill.",
+      "status": "Found",
+      "source": "GCC Construction Works 2026 Contractor with 4 amendments_compressed.pdf, Page 18, Annexure-I (Memorandum), Sl. No. 13 / Clause CC / 3.0",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_33",
+      "category": "Fees & Guarantees",
+      "question": "Release of Retension Money",
+      "answer": "• For specialized items for Civil works: 5% of the cost of the work shall be withheld which shall be released after 5 years.\n• General retention money release timeline: Not specified in the provided text.",
+      "status": "Found",
+      "source": "23 Technical Specification_CB_Part_1_compressed.pdf, Page 9, Preamble",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_34",
+      "category": "Fees & Guarantees",
+      "question": "Security Deposite",
+      "answer": "5% (Five Percent Only) of the gross value of each running/final bill.",
+      "status": "Found",
+      "source": "GCC Construction Works 2026 Contractor with 4 amendments_compressed.pdf, Page 18, Annexure-I (Memorandum), Sl. No. 13 / Clause CC / 3.0",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_35",
+      "category": "Fees & Guarantees",
+      "question": "Release of Security Deposite",
+      "answer": "• Option 1: For specialized Civil works, 5% of the cost of the work shall be withheld and released after 5 years from the certified date of completion.\n• Option 2: Security Deposit/Retention Money is deducted @ 5% of the gross value of each running/final bill; Bank Guarantee for waterproofing work and anti-termite treatment (CC/52.0) must be submitted before the release of security deposit.",
+      "status": "Found",
+      "source": "Document: 23 Technical Specification_CB_Part_1_compressed.pdf, Page 9, Section: Technical Specification (Civil) Preamble & Document: GCC Construction Works 2026 Contractor with 4 amendments_compressed.pdf, Page 18, Annexure-I Memorandum, Items 13 & 20",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_36",
+      "category": "Fees & Guarantees",
+      "question": "Performance Security",
+      "answer": "• Performance Guarantee: 5.00 % (Five Percent Only) of contract value within 15 days from the issue of Letter of Award.\n• Additional Performance Guarantee (in case of Abnormally Low Bid where winning quote is less than 85% of estimated cost): Full amount equivalent to the difference between 85% of Estimated Cost put to tender and ALB.",
+      "status": "Found",
+      "source": "GCC Construction Works 2026 Contractor with 4 amendments_compressed.pdf, Page 18, Annexure-I (Memorandum), Sl. No. 11 & 12 / Clause CC / 2.0 & 2.6",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_37",
+      "category": "Fees & Guarantees",
+      "question": "Release of Performance Security",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_38",
+      "category": "Commercial & Payment",
+      "question": "Defect liability period",
+      "answer": "• General Defect Liability Period: 24 (Twenty-Four) months from the date of taking over of the works by NBCC or client, whichever is later.\n• Specialized Civil Works Guarantee Period: 5 (Five) years from the certified date of completion of the work.",
+      "status": "Found",
+      "source": "• GCC Construction Works 2026 Contractor with 4 amendments_compressed.pdf, Page 19, Annexure-I (Memorandum), Sl. No. 19 / Clause CC / 38.0\n• 23 Technical Specification_CB_Part_1_compressed.pdf, Page 9, Preamble",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_39",
+      "category": "Commercial & Payment",
+      "question": "Mobilisation Advance",
+      "answer": "• Mobilization Advance (CC / 4.0): Applicable / Not Applicable as per Memorandum (percentage to be specified), with simple interest rate @ 10% per annum (CC / 4.0, 5.1, 23.4.2).",
+      "status": "Found",
+      "source": "Document: GCC Construction Works 2026 Contractor with 4 amendments_compressed.pdf, Page 18, Annexure-I Memorandum, Items 7 & 8",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_40",
+      "category": "Commercial & Payment",
+      "question": "Interest Rate of Mobilization Advance",
+      "answer": "Simple Interest Rate @10% (Ten Percent only) (Per Annum)",
+      "status": "Found",
+      "source": "GCC Construction Works 2026 Contractor with 4 amendments_compressed.pdf, Page 18, Annexure-I (Memorandum), Sl. No. 8 / Clause CC / 4.0, 5.1, 23.4.2",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_41",
+      "category": "Commercial & Payment",
+      "question": "Recovery of Mobilisation Advance",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_42",
+      "category": "Commercial & Payment",
+      "question": "Secured advance on materials",
+      "answer": "• Clause 5.0 \"Secured Advance Against Non-Perishable Materials\" is specified in the Clauses of Contract index; Memorandum Item 8 specifies simple interest rate @ 10% per annum for Mobilization and/or other Advances (referencing CC / 4.0, 5.1, 23.4.2).",
+      "status": "Found",
+      "source": "Document: GCC Construction Works 2026 Contractor with 4 amendments_compressed.pdf, Page 4 & Page 18, Section 3 Index & Annexure-I Memorandum, Item 8",
+      "confidence": "Medium"
+    },
+    {
+      "id": "crit_43",
+      "category": "Commercial & Payment",
+      "question": "% of all overheads and profits",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_44",
+      "category": "Quality & Technical",
+      "question": "List of approved make/Agencies",
+      "answer": "• Option 1: \"List of approved makes of materials\" is listed as part of the set of Tender Documents.\n• Option 2: Specific approved makes/brands indicated across BOQ items include Hempadur / Hempafire / Hempathane (Paints), Sonic 1500J (Gate Actuator), GypSerra / Twiga Insul / EcoInsul (Drywall/Insulation), Dowsil & Boss (Silicone Sealants), Meanwell (LED Drivers), SoundScapes (Acoustical Clouds), Flotex (Flocked Flooring), and Stonelam (Porcelain Slabs).",
+      "status": "Found",
+      "source": "Document: GCC Construction Works 2026 Contractor with 4 amendments_compressed.pdf, Page 13, Section 1, Clause 6.0(f) & Document: 19 BOQ_Combined__compressed.pdf, Pages 10, 22, 36, 38, 39, 40, BOQ Items 21, 117, 204, 209, 210, 211, 214",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_45",
+      "category": "Commercial & Payment",
+      "question": "Basic Rate",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_46",
+      "category": "Site & Infrastructure",
+      "question": "Water Supply",
+      "answer": "• Option 1: Water supply remains in the General Contractor's scope (Document: 19 BOQ_Combined__compressed.pdf, Page 38, Item 209 MR).\n• Option 2: Tenderers are advised to visit the site prior to tendering to assess and satisfy themselves regarding the availability of water supply (Document: GCC Construction Works 2026 Contractor with 4 amendments_compressed.pdf, Page 15, ITT Clause 19.0).\n• Option 3: Water and Electricity provisions are listed under Clause 45.0 in the GCC Index (Document: GCC Construction Works 2026 Contractor with 4 amendments_compressed.pdf, Page 6, Section 3 Index).",
+      "status": "Found",
+      "source": "19 BOQ_Combined__compressed.pdf, Page 38, Item 209 MR / GCC Construction Works 2026 Contractor with 4 amendments_compressed.pdf, Page 15, ITT Clause 19.0",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_47",
+      "category": "Site & Infrastructure",
+      "question": "Electricity Supply",
+      "answer": "• Option 1: Electricity supply remains in the General Contractor's scope (Document: 19 BOQ_Combined__compressed.pdf, Page 38, Item 209 MR).\n• Option 2: Tenderers are advised to visit the site prior to tendering to assess and satisfy themselves regarding the availability of power supply (Document: GCC Construction Works 2026 Contractor with 4 amendments_compressed.pdf, Page 15, ITT Clause 19.0).\n• Option 3: Water and Electricity provisions are listed under Clause 45.0 in the GCC Index (Document: GCC Construction Works 2026 Contractor with 4 amendments_compressed.pdf, Page 6, Section 3 Index).",
+      "status": "Found",
+      "source": "19 BOQ_Combined__compressed.pdf, Page 38, Item 209 MR / GCC Construction Works 2026 Contractor with 4 amendments_compressed.pdf, Page 15, ITT Clause 19.0",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_48",
+      "category": "Site & Infrastructure",
+      "question": "Space for labour hutment",
+      "answer": "Land for Labour Huts/ Site Office and Storage Accommodation is governed under Clause 46.0 of the Clauses of Contract.",
+      "status": "Found",
+      "source": "GCC Construction Works 2026 Contractor with 4 amendments_compressed.pdf, Page 5, Clause 46.0",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_49",
+      "category": "Site & Infrastructure",
+      "question": "Working Time",
+      "answer": "Working times, including provisions for work on Sundays, Holidays, and during Night, are governed under Clause 44.0 of the Clauses of Contract.",
+      "status": "Found",
+      "source": "GCC Construction Works 2026 Contractor with 4 amendments_compressed.pdf, Page 5, Clause 44.0",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_50",
+      "category": "Site & Infrastructure",
+      "question": "Project Documentary Film & Video-Grapy",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_51",
+      "category": "Safety & Environment",
+      "question": "First Aid Facilities & Emergency Set-up",
+      "answer": "• First Aid Kit: 4 complete sets required as part of field laboratory setup.\n• Health & Sanitary Provisions: Contractor shall comply with Model Rules for the Protection of Health and Sanitary Arrangements for Workers as per Section 4 of GCC.",
+      "status": "Found",
+      "source": "23 Technical Specification_CB_Part_1_compressed.pdf, Page 15, Section 5(xiii)(e); GCC Construction Works 2026 Contractor with 4 amendments_compressed.pdf, Page 7, Section 4",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_52",
+      "category": "Quality & Technical",
+      "question": "Material & Samples",
+      "answer": "• Prior Approval: If specification for a material/product is not provided, the contractor shall submit specification and obtain prior approval from NBCC/Consultant before use.\n• Mock-up & Samples: Contractor shall prepare shop drawings and execute mock-ups for specialized/finishing items in specified colors/shades (minimum 3 options) for approval.\n• General Clause: Governed by Clause 29.0 (Materials and Samples) of General Conditions of Contract.",
+      "status": "Found",
+      "source": "23 Technical Specification_CB_Part_1_compressed.pdf, Page 3, Section A & Page 11, Section 3(i); GCC Construction Works 2026 Contractor with 4 amendments_compressed.pdf, Page 5, Clause 29.0",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_53",
+      "category": "Quality & Technical",
+      "question": "Material Testing Laboratory",
+      "answer": "• Field Lab Setup: Contractor at his own cost shall set up a fully furnished and adequately equipped field laboratory at site within 60 days from scheduled date of start, including office space for engineers, sample storage, tables, wash basin, toilet facility, and minimum testing equipment.\n• Equipment List: Includes liquid/plastic limit sets, moisture content set, compaction moulds, sand density apparatus, sieves, concrete slump cones, cube moulds (min 144), compression testing machine, temperature controlled curing tank, total station, auto level, etc.\n• Penalty for Failure: Rs. 500.00 per day per equipment/apparatus debited to contractor's account for failure to set up laboratory, provide equipment, or replace broken equipment.",
+      "status": "Found",
+      "source": "23 Technical Specification_CB_Part_1_compressed.pdf, Page 13-16, Section 5",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_54",
+      "category": "Safety & Environment",
+      "question": "Barricading",
+      "answer": "• Concertina Coil Fencing: Providing and fixing concertina coil fencing with punched tape concertina coil 600 mm dia 10 m openable length, having 50 rounds per 6 m length, up to 3 m height of wall with existing angle iron 'Y' shaped placed 2.4 m or 3.0 m apart and 9 horizontal R.B.T. reinforced barbed wire.",
+      "status": "Found",
+      "source": "19 BOQ_Combined__compressed.pdf, Page 12, Item 35",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_55",
+      "category": "Safety & Environment",
+      "question": "Water spraying",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_56",
+      "category": "Safety & Environment",
+      "question": "Use Of Low-Voc Paints/Adhesives/Sealants",
+      "answer": "• Interior Paint: Premium acrylic emulsion paint of interior grade having VOC content less than 50 grams/litre.\n• Flooring Adhesive: VOC content of flooring adhesive should be < 65 g/l or No/zero-VOC (such as acrylics or phenolic resins, phenol formaldehydes).\n• Primers & Topcoats: Fast drying low VOC epoxy zinc phosphate primer and Polyurethane topcoat confirming to LEED V4 for VOC emission.\n• Waterproofing Systems: Seamless hybrid Polyurea Polyurethane membrane and crystalline waterproofing systems specified as 100% Solids, VOC Free / Zero VOC.",
+      "status": "Found",
+      "source": "19 BOQ_Combined__compressed.pdf, Page 10, Item 21 & Page 27, Item 158; 23 Technical Specification_CB_Part_1_compressed.pdf, Page 19, 29, 32, 33, 36",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_57",
+      "category": "Commercial & Legal",
+      "question": "Escrow Account",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_58",
+      "category": "Site & Infrastructure",
+      "question": "Site Signages",
+      "answer": "• Scope: Internal & External Signage system (illuminated & non-illuminated) included under scope of works.\n• BOQ Provision: Total allocated cost for Signage Work is Rs. 76,90,630.00.",
+      "status": "Found",
+      "source": "23 Technical Specification_CB_Part_1_compressed.pdf, Page 3, Section A(k); 19 BOQ_Combined__compressed.pdf, Page 2, Section B(V)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_59",
+      "category": "Site & Infrastructure",
+      "question": "Office for Client",
+      "answer": "• GCC Provision: Clause 70.0 mandates 'Furnished Office Accommodation & Mobility Communication to be Arranged by Contractor'.\n• Field Lab Office Space: Contractor's field laboratory setup at site shall also include office space for engineers.",
+      "status": "Found",
+      "source": "GCC Construction Works 2026 Contractor with 4 amendments_compressed.pdf, Page 7, Clause 70.0; 23 Technical Specification_CB_Part_1_compressed.pdf, Page 13, Section 5",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_60",
+      "category": "Site & Infrastructure",
+      "question": "Trasportation for Client",
+      "answer": "• GCC Provision: Clause 70.0 mandates mobility communication and transportation arrangements to be made by contractor.\n• Testing Transport: Contractor shall provide necessary transport arrangements to and fro to the approved testing agency or laboratory during the construction phase and defect liability period.",
+      "status": "Found",
+      "source": "GCC Construction Works 2026 Contractor with 4 amendments_compressed.pdf, Page 7, Clause 70.0; 23 Technical Specification_CB_Part_1_compressed.pdf, Page 11, Section 2",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_61",
+      "category": "Quality & Technical",
+      "question": "Plants & Machinery",
+      "answer": "• Concrete Batching Plant & Transit Mixers: Batching plant for all concrete shall be used or ready-mix concrete from an approved source with transit mixers of adequate capacity (23 Technical Specification_CB_Part_1_compressed.pdf, Page 10, Preamble).\n• Field Laboratory Equipment: Fully furnished site lab to be set up within 60 days from scheduled start date, equipped with Casagrande liquid limit device, grooving tools, micro oven (35L, up to 200°C), compaction moulds and rammers, sand density cone apparatus, portable sieve shaker, slump cones, 150mm concrete cube moulds (min. 144 nos.), temperature-controlled concrete curing tank (60 cubes capacity), Schmidt test hammer, Compression Testing machine (electrical/hand operated), Flexural Strength Testing Machine, Total Station survey equipment (4 sets), Auto Level/Dumpy Level (4 sets), Bitumen extraction apparatus, Marshall stability testing machine, and Los Angeles Abrasion test apparatus (23 Technical Specification_CB_Part_1_compressed.pdf, Pages 13–16, Section 5).\n• Hot-Air Welding Equipment: Leister varimat V2 machine, Leister Twinny, or suitable single-seam hand welding equipment for HDPE waterproofing membrane (23 Technical Specification_CB_Part_1_compressed.pdf, Page 18, Clause 1.1.A).\n• Spray Application Equipment: Plural component airless spray equipment / high-pressure plural component pump (Graco EXP2 or similar reactor capable of 120-150 bar pressure and +70 to +80°C block/hose temperature) for Hybrid Polyurea Polyurethane Membrane (23 Technical Specification_CB_Part_1_compressed.pdf, Pages 19 & 30, Clause 1.1.B & 1.1.G).\n• General Requirement: Additional plants and machinery required to achieve scheduled progress shall be arranged by the agency at no extra cost (23 Technical Specification_CB_Part_1_compressed.pdf, Page 16, Note 4).",
+      "status": "Found",
+      "source": "23 Technical Specification_CB_Part_1_compressed.pdf, Pages 10, 13–16, 18, 19, 30",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_62",
+      "category": "Quality & Technical",
+      "question": "Staff",
+      "answer": "• Accredited Representative(s): The contractor shall intimate the name(s) of accredited representative(s) responsible for taking instructions from the Engineer-in-Charge or authorized representative within 07 days of the date of issue of Letter of Award (GCC Construction Works 2026, Page 14, ITT Clause 12.0).\n• Authorized Engineer: The contractor must have a fully qualified, duly authorized Engineer present for sampling, testing, and mock-ups (23 Technical Specification_CB_Part_1_compressed.pdf, Page 11, Section 3.i).\n• Field Laboratory Staff: Adequate technical and upkeep staff must be provided to maintain the field laboratory (23 Technical Specification_CB_Part_1_compressed.pdf, Page 13, Section 5).\n• Note: Detailed minimum technical staff deployment schedule/qualifications (referenced as GCC Clause 67.0 on page 82) is omitted from the provided document extract.",
+      "status": "Found",
+      "source": "GCC Construction Works 2026 Contractor with 4 amendments_compressed.pdf, Page 14, ITT Clause 12.0; 23 Technical Specification_CB_Part_1_compressed.pdf, Pages 11, 13",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_63",
+      "category": "Commercial & Legal",
+      "question": "Force Majure",
+      "answer": "Force Majeure conditions and provisions are governed under Clause 40.0 of the Clauses of Contract.",
+      "status": "Found",
+      "source": "GCC Construction Works 2026 Contractor with 4 amendments_compressed.pdf, Page 5, Clause 40.0",
+      "confidence": "High"
+    }
+  ],
+  "id": "bf5e6367-9",
+  "reanalyzed_at": "2026-09-28T18:22:27.991912"
+}

@@ -1,0 +1,639 @@
+{
+  "folder_id": "c310f4ad_vidhanbhavan",
+  "folder_name": "vidhanbhavan",
+  "created_at": "2026-09-25T18:12:40.232168",
+  "total_points": 63,
+  "found_points": 52,
+  "missing_points": 11,
+  "accuracy_score": 82.54,
+  "files": [
+    "eProcurement System Government of Maharashtra_compressed.pdf",
+    "P02ARCHITECTUREDRAWINGPart1_compressed.pdf",
+    "SCHAAnnexure1Site_compressed.pdf",
+    "SCHAAnnexure3EnvironmentalClearance_compressed.pdf",
+    "SCHAAnnexureBSUBSOILINVESTIGATIONreport_compressed.pdf",
+    "SCHBAnnexure1BroadScopeofwork_compressed.pdf",
+    "ScheduleEtoQ_compressed.pdf",
+    "VBNPART2RFP_compressed.pdf",
+    "VBNPART2VOL2EPCAGREEMENT_compressed.pdf",
+    "VOL03PART02DBR_compressed.pdf",
+    "VOL3APPROVEDMAKELISTPART02_compressed.pdf",
+    "VOL3TECHSPECSPART02_compressed.pdf"
+  ],
+  "doc_summaries": [
+    {
+      "filename": "eProcurement System Government of Maharashtra_compressed.pdf",
+      "page_count": 2,
+      "total_chars": 4219,
+      "extracted_pages": 2
+    },
+    {
+      "filename": "VBNPART2RFP_compressed.pdf",
+      "page_count": 100,
+      "total_chars": 111409,
+      "extracted_pages": 40
+    },
+    {
+      "filename": "VBNPART2VOL2EPCAGREEMENT_compressed.pdf",
+      "page_count": 142,
+      "total_chars": 91267,
+      "extracted_pages": 40
+    },
+    {
+      "filename": "ScheduleEtoQ_compressed.pdf",
+      "page_count": 179,
+      "total_chars": 79793,
+      "extracted_pages": 40
+    },
+    {
+      "filename": "SCHBAnnexure1BroadScopeofwork_compressed.pdf",
+      "page_count": 94,
+      "total_chars": 91131,
+      "extracted_pages": 40
+    },
+    {
+      "filename": "VOL3APPROVEDMAKELISTPART02_compressed.pdf",
+      "page_count": 31,
+      "total_chars": 51439,
+      "extracted_pages": 31
+    },
+    {
+      "filename": "VOL3TECHSPECSPART02_compressed.pdf",
+      "page_count": 522,
+      "total_chars": 112027,
+      "extracted_pages": 40
+    }
+  ],
+  "model_used": "gemini-3.6-flash",
+  "results": [
+    {
+      "id": "crit_1",
+      "category": "General & Project Details",
+      "question": "Tender No",
+      "answer": "• Tender Reference Number: 15 Plot 2 Vidhanbhavan\n• Tender ID: 2026_MSIDC_1339232_1",
+      "status": "Found",
+      "source": "eProcurement System Government of Maharashtra_compressed.pdf, Page 1, Basic Details",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_2",
+      "category": "General & Project Details",
+      "question": "Type of Contract",
+      "answer": "EPC Basis (Engineering, Procurement, Construction) / Lump-sum",
+      "status": "Found",
+      "source": "eProcurement System Government of Maharashtra_compressed.pdf, Page 1, Basic Details; VBNPART2RFP_compressed.pdf, Page 24, Clause 1.1.2",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_3",
+      "category": "General & Project Details",
+      "question": "Cost of project",
+      "answer": "Rs. 230 Crores (Rupees Two Hundred Thirty Crores Only) excluding GST",
+      "status": "Found",
+      "source": "VBNPART2RFP_compressed.pdf, Page 24, Clause 1.1.1; eProcurement System Government of Maharashtra_compressed.pdf, Page 1, Work /Item(s)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_4",
+      "category": "Fees & Guarantees",
+      "question": "Tender Fees",
+      "answer": "Rs. 35,400/- (Rs Thirty-five thousand four hundred only) towards fee for RFP document (non-refundable) + Rs. 500/- Processing Fee (Total Fee: Rs. 35,900/-)",
+      "status": "Found",
+      "source": "eProcurement System Government of Maharashtra_compressed.pdf, Page 1, Tender Fee Details; VBNPART2RFP_compressed.pdf, Page 3, Instructions to Bidder Clause 2",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_5",
+      "category": "Fees & Guarantees",
+      "question": "EMD",
+      "answer": "Rs. 2,30,00,000/- (Rupees Two Crore Thirty Lakh Only) / 1.0% of Tender Value in the form of Bank Guarantee",
+      "status": "Found",
+      "source": "eProcurement System Government of Maharashtra_compressed.pdf, Page 1, EMD Fee Details; VBNPART2RFP_compressed.pdf, Page 25, Clause 1.2.3",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_6",
+      "category": "General & Project Details",
+      "question": "Name of Work",
+      "answer": "Detail Design, Procurement, Construction, Testing & Commissioning of Extension to Vidhan Bhavan – Construction of New Administrative Building (Part-2) at Civil Lines, Nagpur on EPC Basis",
+      "status": "Found",
+      "source": "VBNPART2RFP_compressed.pdf, Page 1; eProcurement System Government of Maharashtra_compressed.pdf, Page 1, Work /Item(s)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_7",
+      "category": "General & Project Details",
+      "question": "Scope of work",
+      "answer": "• Package-1 (Shell & Core - Included in this tender): Detailed design of Architecture, Structure, High-side MEPF, Façade, basement & common area lighting; site setup, survey, demolition/relocation of existing temporary structures, shifting/rerouting of existing utilities, substructure & superstructure civil works, roofing, external plumbing, fire-fighting, high-side electrical, lifts/escalators, roads, paving, STP/WTP, hardscaping/landscaping, compound walls, GRIHA 5-star compliance, and maintenance for 6 months.\n• Package-2 (Excluded from this tender): Internal finishes & interior fit-out work including furniture, low-side MEPF, AV, acoustics, internal area lighting, and internal signage.",
+      "status": "Found",
+      "source": "VBNPART2RFP_compressed.pdf, Pages 13, 15-24, Section 1.7 & 1.8; SCHBAnnexure1BroadScopeofwork_compressed.pdf, Pages 3-19",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_8",
+      "category": "General & Project Details",
+      "question": "Type of Project/ Building/",
+      "answer": "Government Administrative Building forming part of the Vidhan Bhavan Extension Complex (Civil Works / Core & Shell Development)",
+      "status": "Found",
+      "source": "VBNPART2RFP_compressed.pdf, Page 13, Section 1.4; SCHBAnnexure1BroadScopeofwork_compressed.pdf, Page 5, Section 4",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_9",
+      "category": "General & Project Details",
+      "question": "Client",
+      "answer": "Maharashtra State Infrastructure Development Corporation (MSIDC)",
+      "status": "Found",
+      "source": "VOL3APPROVEDMAKELISTPART02_compressed.pdf, Page 1; VOL3TECHSPECSPART02_compressed.pdf, Page 1",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_10",
+      "category": "General & Project Details",
+      "question": "Executing Agency",
+      "answer": "Maharashtra State Infrastructure Development Corporation (MSIDC)",
+      "status": "Found",
+      "source": "VBNPART2RFP_compressed.pdf, Page 11, Section 1.1; VBNPART2VOL2EPCAGREEMENT_compressed.pdf, Page 10, Recitals",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_11",
+      "category": "General & Project Details",
+      "question": "Architect & Preparation of Tender",
+      "answer": "Architect Hafeez Contractor (appointed by the Authority as the Project Management Consultant (PMC) and Architect for the project).",
+      "status": "Found",
+      "source": "VOL3APPROVEDMAKELISTPART02_compressed.pdf, Page 1; VOL3TECHSPECSPART02_compressed.pdf, Page 1; VBNPART2VOL2EPCAGREEMENT_compressed.pdf, Page 38, Clause 10.1.2",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_12",
+      "category": "Dates & Timelines",
+      "question": "Publish Date",
+      "answer": "17-Sep-2026 11:00 AM",
+      "status": "Found",
+      "source": "eProcurement System Government of Maharashtra_compressed.pdf, Page 2, Section: Critical Dates",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_13",
+      "category": "Dates & Timelines",
+      "question": "Pre Bid -meeting & Place",
+      "answer": "• Pre-Bid Meeting Date & Time: 28-Sep-2026 12:00 PM\n• Pre-Bid Meeting Venue: Office of CE MSIDC, 13th Floor, Bakhtawar Building, Nariman Point, Mumbai",
+      "status": "Found",
+      "source": "eProcurement System Government of Maharashtra_compressed.pdf, Page 1, Section: Work /Item(s)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_14",
+      "category": "Dates & Timelines",
+      "question": "Submission date",
+      "answer": "16-Oct-2026 05:00 PM (17:00 hrs IST)",
+      "status": "Found",
+      "source": "eProcurement System Government of Maharashtra_compressed.pdf, Page 2, Section: Critical Dates; VBNPART2RFP_compressed.pdf, Page 29, Clause 1.2.8",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_15",
+      "category": "Dates & Timelines",
+      "question": "Bid Opening Date",
+      "answer": "• Technical Bid Opening Date: 19-Oct-2026 11:00 AM (D + 48 Days at 11:00 hrs IST)\n• Financial Bid Opening Date: To be declared later",
+      "status": "Found",
+      "source": "eProcurement System Government of Maharashtra_compressed.pdf, Page 2, Section: Critical Dates; VBNPART2RFP_compressed.pdf, Page 29, Clause 1.2.8",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_16",
+      "category": "Dates & Timelines",
+      "question": "Bid Validity",
+      "answer": "• Option 1: 180 days from Bid Due Date (as per eProcurement Portal Tender Details and RFP Clause 1.2.1)\n• Option 2: 120 days from Bid Due Date (as per RFP Clause 1.2.8 Schedule of Bidding Process)",
+      "status": "Found",
+      "source": "eProcurement System Government of Maharashtra_compressed.pdf, Page 1; VBNPART2RFP_compressed.pdf, Page 25, Clause 1.2.1 & Page 29, Clause 1.2.8",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_17",
+      "category": "Dates & Timelines",
+      "question": "Commencement of project",
+      "answer": "• Site Possession / Handover: Within 15 days from the date of the Agreement on no less than 90% of total area\n• Agreement Signing: Within 15 days of issue of LOA / Within 30 days after submission of Security Deposit\n• Initial Mobilization Obligations (Design Director, Representative, Work Programme): Within 30 days of the Appointed Date\n• Project Milestones: Timeline calculated starting from the date of Letter of Award (LOA)",
+      "status": "Found",
+      "source": "VBNPART2VOL2EPCAGREEMENT_compressed.pdf, Page 11, Recital D, Page 22, Clause 4.1.3(a) & Page 38, Clause 10.1.1 & 10.1.3; ScheduleEtoQ_compressed.pdf, Page 20, Schedule J",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_18",
+      "category": "Dates & Timelines",
+      "question": "Time of Completion",
+      "answer": "• 15 Months (as per RFP Section 1.1, Clause 1.1.1, and Schedule J)\n• 457 Days (as per eProcurement System Tender Details)",
+      "status": "Found",
+      "source": "VBNPART2RFP_compressed.pdf, Page 13, Clause 1.1 & Page 24, Clause 1.1.1; eProcurement System Government of Maharashtra_compressed.pdf, Page 1; ScheduleEtoQ_compressed.pdf, Page 21, Schedule J",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_19",
+      "category": "Commercial & Legal",
+      "question": "Joint Venture (JV)",
+      "answer": "• Maximum JV Members: Shall not exceed 2 (two) entities including Lead Member.\n• Lead Member Financial Capacity: Must meet at least 51% of the Financial Capacity requirement.\n• Other Member Financial Capacity: Must meet at least 25% of the Financial Capacity requirement.\n• Cumulative Capacity: JV as a whole must cumulatively satisfy 100% of Financial & Technical Capacity requirements.\n• Work Execution & Subcontracting: Lead Member must directly carry out at least 51% of the total project value; subcontracting is restricted to a maximum of 49%.\n• Composition Change: Change in JV composition is strictly prohibited during the bidding stage and until full completion of the scope.",
+      "status": "Found",
+      "source": "VBNPART2RFP_compressed.pdf, Pages 35-37, Clauses 2.2.3 & 2.2.6 & Page 39, Clause 2.3.1; VBNPART2VOL2EPCAGREEMENT_compressed.pdf, Pages 18-19, Clause 3.2.1",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_20",
+      "category": "Site & Infrastructure",
+      "question": "Site Location",
+      "answer": "Existing Vidhan Bhavan precinct, Civil Lines, Nagpur, Maharashtra - 440001 (Site area approx. 10 Acres located in the City Center of Nagpur).",
+      "status": "Found",
+      "source": "eProcurement System Government of Maharashtra_compressed.pdf, Page 1; VBNPART2RFP_compressed.pdf, Page 11, Clause 1.1; SCHBAnnexure1BroadScopeofwork_compressed.pdf, Page 4, Clause 2.2",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_21",
+      "category": "Site & Infrastructure",
+      "question": "Site Visit/ Site Location",
+      "answer": "• Site Location: Civil Lines, Nagpur (Pincode 440001), within the existing Vidhan Bhavan precinct; site spread across approximately 10 Acres.\n• Site Visit: Bidders are encouraged to visit the Project site to ascertain site conditions, traffic, location, surroundings, climate, availability of power, water, and other utilities, access to site, handling and storage of materials, weather data, and applicable laws/regulations.\n• Site Handover: The Authority shall provide the Project site within 15 days from the date of the Agreement on no less than 90% of the total area of the Project.",
+      "status": "Found",
+      "source": "eProcurement System Government of Maharashtra_compressed.pdf, Page 1; VBNPART2RFP_compressed.pdf, Page 11 Clause 1.1 & Page 39 Clause 2.5; VBNPART2VOL2EPCAGREEMENT_compressed.pdf, Page 22 Clause 4.1.3(a)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_22",
+      "category": "Site & Infrastructure",
+      "question": "Built up Area",
+      "answer": "• The approximate Built-up Area of the Project comprises the Basement Area together with the FSI Area of the above-ground floors.\n• The total Built-up Area is governed by the latest approved architectural area statement forming part of the Contract Documents (exact numerical figure is not explicitly quantified in the provided text).",
+      "status": "Found",
+      "source": "VBNPART2RFP_compressed.pdf, Page 15 Clause 1.5.3; SCHBAnnexure1BroadScopeofwork_compressed.pdf, Page 6 Clause 5.3",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_23",
+      "category": "Site & Infrastructure",
+      "question": "Site Area",
+      "answer": "• The project site is spread across 10 Acres Approx in a City Center of Nagpur (Civil Lines).",
+      "status": "Found",
+      "source": "VBNPART2RFP_compressed.pdf, Page 11 Clause 1.1",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_24",
+      "category": "Commercial & Payment",
+      "question": "Milestone",
+      "answer": "• Project Milestone-I (4th month from LOA): Complete design & engineering of all disciplines and obtain approvals; submit approved Stage Payment Statements for not less than 15% of the Contract Price.\n• Project Milestone-II (8th month from LOA): Submit Stage Payment Statements for an amount not less than 40% of the Contract Price.\n• Project Milestone-III (12th month from LOA): Submit Stage Payment Statements for an amount not less than 65% of the Contract Price.\n• Project Milestone-IV (14th month from LOA): Submit Stage Payment Statements for an amount equal to 90% of the Contract Price.\n• Scheduled Completion Date (15th month from LOA): Complete construction in accordance with the Agreement.",
+      "status": "Found",
+      "source": "ScheduleEtoQ_compressed.pdf, Page 20-21, Schedule J (Clauses 2.0 to 6.0)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_25",
+      "category": "Commercial & Payment",
+      "question": "Liquidated Damages",
+      "answer": "• Delay in Performance Security: Extension up to 20 days may be granted on payment of Damages at the rate of 0.05% of the Contract Price per day until Performance Security is provided.\n• Authority Delay Damages: Aggregate damages payable by the Authority for delays in handing over site or utility shifting shall not exceed 0.05% of the Contract Price.\n• Liquidated Damages for Delay in Completion by Contractor: Clause 8.3.1 (Damages for delay) is marked as 'Deleted' in the contract terms.",
+      "status": "Found",
+      "source": "VBNPART2VOL2EPCAGREEMENT_compressed.pdf, Page 22 Clause 4.1.5, Page 30 Clause 7.1.3, Page 33 Clause 8.3.1",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_26",
+      "category": "Commercial & Payment",
+      "question": "Incentive for Early completion",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_27",
+      "category": "Commercial & Payment",
+      "question": "Minimum value of work to be executed interim RA payment",
+      "answer": "• Stage Payment Statements are linked to milestone thresholds: 15% of Contract Price (Milestone-I), 40% (Milestone-II), 65% (Milestone-III), and 90% (Milestone-IV).\n• Retention Money Refund Tranches: Refund of retention money against bank guarantee shall be made in tranches of not less than 1% of the Contract Price.",
+      "status": "Found",
+      "source": "ScheduleEtoQ_compressed.pdf, Page 20, Schedule J; VBNPART2VOL2EPCAGREEMENT_compressed.pdf, Page 31 Clause 7.5.3",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_28",
+      "category": "Commercial & Payment",
+      "question": "R.A Bill Payments",
+      "answer": "• Advance Payment: Interest-bearing advance payment equal to 10% of Contract Price for mobilization and equipment acquisition, payable in 3 installments against an unconditional BG of 110% of each installment.\n• Deductions & Retention: 6% guarantee money deducted from every payment for Works as Retention Money, capped at 5% of Contract Price (or BG of equivalent amount + 10%). 50% released upon Completion Certificate and 50% upon completion of DLP.\n• Billing Claims: Contractor submits Stage Payment Statements covering executed works, Change of Scope orders, price adjustments, and tax deductions.",
+      "status": "Found",
+      "source": "VBNPART2VOL2EPCAGREEMENT_compressed.pdf, Page 31 Clause 7.5.1; ScheduleEtoQ_compressed.pdf, Page 11 Schedule G Annexure III & Page 32 Schedule M",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_29",
+      "category": "Commercial & Payment",
+      "question": "Period of Final Measurement",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_30",
+      "category": "Commercial & Payment",
+      "question": "Price Escalation",
+      "answer": "• Contract Price Adjustment: Clause 3.8(b) specifies that the Contract Price shall not be adjusted to take account of any unforeseen difficulties or costs.\n• Site/Document Errors: Clause 6.1.3 states that mistake or error relating to RFP/site details shall not lead to any adjustment of Contract Price.\n• Price Adjustment Provisions: Contract TOC lists Clause 19.10 (Adjusted contract price for the Works) and Clause 19.11 (Restrictions on price adjustment), while Clause 19.12 is marked 'Deleted'.",
+      "status": "Found",
+      "source": "VBNPART2VOL2EPCAGREEMENT_compressed.pdf, Page 20 Clause 3.8(b), Page 28 Clause 6.1.3, Page 5-6 TOC (Clauses 19.10–19.12)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_31",
+      "category": "Commercial & Legal",
+      "question": "Stamp Duty for Aggrement",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_32",
+      "category": "Fees & Guarantees",
+      "question": "Retension Money",
+      "answer": "• Deduction Rate: 6% (six per cent) from every payment due to the Contractor for Works.\n• Maximum Cap: Total Retention Money shall not exceed 5% (five per cent) of the Contract Price.\n• Alternate Provision: The Contractor may, in lieu of cash retention, furnish unconditional and irrevocable Bank Guarantees of an equivalent amount plus 10% thereof.",
+      "status": "Found",
+      "source": "VBNPART2VOL2EPCAGREEMENT_compressed.pdf, Page 31, Clause 7.5.1",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_33",
+      "category": "Fees & Guarantees",
+      "question": "Release of Retension Money",
+      "answer": "• Release Milestones & Split: 2.50% of Contract Price (50% of total Retention Money) remains valid up to issuance of Completion Certificate, and 2.50% of Contract Price (50% of total Retention Money) remains valid till completion of Defects Liability Period (DLP).\n• Discharge Timeline: Within 15 (fifteen) days of the date of issue of Completion Certificate, the Authority shall discharge bank guarantees furnished under Clause 7.5.3 and refund balance Retention Money remaining after adjustments.\n• BG Cessation: Bank Guarantee for Retention Money ceases to be in force 90 (ninety) days after the end of the Defects Liability Period.",
+      "status": "Found",
+      "source": "VBNPART2VOL2EPCAGREEMENT_compressed.pdf, Page 31, Clause 7.5.1 & Clause 7.5.4; ScheduleEtoQ_compressed.pdf, Page 9, Schedule G Annexure-II, Clause 8",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_34",
+      "category": "Fees & Guarantees",
+      "question": "Security Deposite",
+      "answer": "• Performance Security: 7.5% (seven and half percent) of the Contract Price as an irrevocable and unconditional bank guarantee.\n• Additional Performance Security (if offer is below estimated cost): \n  - 1% to 10% below cost put to tender: Demand Draft / Bank Guarantee / FDR of 1% of cost put to tender.\n  - >10% up to 15% below: Cumulative amount equal to 1% plus the amount by which offer is more than 10% below.\n  - >15% below: Cumulative amount plus double amount for remaining percentage below 15%.",
+      "status": "Found",
+      "source": "VBNPART2RFP_compressed.pdf, Page 26, Clause 1.2.4; VBNPART2VOL2EPCAGREEMENT_compressed.pdf, Page 30, Clause 7.1.1",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_35",
+      "category": "Fees & Guarantees",
+      "question": "Release of Security Deposite",
+      "answer": "• Additional Performance Security (Other Bidders): Returned within 7 days after the date of opening of the financial bid (for non-qualified/other bidders).\n• Additional Performance Security (2nd Lowest Bidder): Returned within 3 days from the date of work order.\n• Additional Performance Security (Successful L1 Bidder): Bank Guarantee shall be valid beyond 60 days from the date of expiry of the Defect Liability Period.",
+      "status": "Found",
+      "source": "VBNPART2RFP_compressed.pdf, Page 26-27, Clause 1.2.4 (Notes 8, 9, 10, 12)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_36",
+      "category": "Fees & Guarantees",
+      "question": "Performance Security",
+      "answer": "• Amount: 7.5% (seven and half percent) of the Contract Price in the form of an irrevocable and unconditional bank guarantee from a nationalized bank.\n• Submission Timeline: Within 15 (fifteen) days of the date of receipt of LOA.\n• Extension Condition: Extension of up to 20 (twenty) days may be granted on payment of Damages at 0.05% of the Contract Price per day.",
+      "status": "Found",
+      "source": "VBNPART2VOL2EPCAGREEMENT_compressed.pdf, Page 30, Clause 7.1.1 & Clause 7.1.3",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_37",
+      "category": "Fees & Guarantees",
+      "question": "Release of Performance Security",
+      "answer": "• Release Timeline: The Authority shall return the Performance Security within 6 (Six) Months of the expiry of the Defects Liability Period under the Agreement, provided all defects identified during DLP have been rectified.\n• Form of BG Cessation: Under Schedule G Annexure-I, Performance Security ceases to be in force 90 (ninety) days after the end of the Defects Liability Period.",
+      "status": "Found",
+      "source": "VBNPART2VOL2EPCAGREEMENT_compressed.pdf, Page 31, Clause 7.4.1; ScheduleEtoQ_compressed.pdf, Page 6, Schedule G Annexure-I, Clause 8",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_38",
+      "category": "Commercial & Payment",
+      "question": "Defect liability period",
+      "answer": "10 (ten) years after completion of the Construction Period.",
+      "status": "Found",
+      "source": "VBNPART2RFP_compressed.pdf, Page 28, Clause 1.2.7; VBNPART2VOL2EPCAGREEMENT_compressed.pdf, Page 12, Clause 1.2.1(f)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_39",
+      "category": "Commercial & Payment",
+      "question": "Mobilisation Advance",
+      "answer": "• Advance Amount: Interest-bearing advance payment equal to 10% (ten per cent) of the Contract Price for mobilization expenses and acquisition of equipment.\n• Payment Structure: Payable in three installments.\n• Bank Guarantee Requirement: Requires an irrevocable and unconditional Bank Guarantee from a scheduled bank for an amount equal to 110% of each installment, remaining effective until complete and full repayment.",
+      "status": "Found",
+      "source": "ScheduleEtoQ_compressed.pdf, Page 11, Schedule G Annexure-III, Clause (B)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_40",
+      "category": "Commercial & Payment",
+      "question": "Interest Rate of Mobilization Advance",
+      "answer": "• The Mobilization Advance is stipulated as an 'interest bearing advance payment' equal to 10% (ten per cent) of the Contract Price for mobilization expenses and acquisition of equipment.\n• The specific numerical interest rate percentage is not explicitly stated in the text.",
+      "status": "Found",
+      "source": "ScheduleEtoQ_compressed.pdf, Page 11, Schedule G (Annexure-III, Recital B)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_41",
+      "category": "Commercial & Payment",
+      "question": "Recovery of Mobilisation Advance",
+      "answer": "• The advance payment bank guarantee remains effective till the complete and full repayment of the installment.\n• Full repayment of the installment of the Advance Payment is scheduled within one year from the date of payment of the installment, as set forth in Clause 19.2.",
+      "status": "Found",
+      "source": "ScheduleEtoQ_compressed.pdf, Page 11-12, Schedule G (Annexure-III, Recital B & Clause 8)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_42",
+      "category": "Commercial & Payment",
+      "question": "Secured advance on materials",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_43",
+      "category": "Commercial & Payment",
+      "question": "% of all overheads and profits",
+      "answer": "• EPC Design Fees: 1.396%\n• Operation & Maintenance: 1.121% (Paid quarterly @ 0.140% in 8 installments during 2 years of O&M)",
+      "status": "Found",
+      "source": "ScheduleEtoQ_compressed.pdf, Page 17, Schedule H - Contract Price Weightages, Item 21",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_44",
+      "category": "Quality & Technical",
+      "question": "List of approved make/Agencies",
+      "answer": "• Ordinary Portland Cement: ACC / Ultratech / Ambuja / JK Cement / Shree Cement\n• Reinforcement Steel (Fe500D / Fe550D): SAIL / Tata Steel / JSW / Jindal\n• Structural Steel: Tata Steel / JSW / SAIL\n• Ready Mix Concrete: Ultratech / ACC / Prism Johnson\n• Waterproofing / Membrane / Chemicals: Penetron / Kryton / Fosroc / Sika / Carlisle / Soprema / Tremco / Dr. Fixit / STP\n• Façade & Curtain Wall Glazing System: Schüco / Reynaers Aluminium / Technal\n• Architectural Glass: Saint-Gobain / Guardian Glass / AIS\n• Passenger / Service Lifts: KONE / Otis / Schindler / Mitsubishi Electric\n• DG Sets (Engine): Caterpillar / Cummins India / Kirloskar Oil Engines / Perkins / Volvo\n• Electrical Switchgear & Panels: Schneider / Lauritz Knudsen / ABB / Siemens\n• Fire Fighting Pumps: KSB / ITT Bell and Gossett / Viking / Grundfos / Kirloskar / Armstrong\n• HVAC VRV / VRF Units: Mitsubishi Electric / LG / Toshiba / Samsung / Daikin\n• Plumbing Pipes (UPVC / CPVC): Astral / Ashirwad / Supreme / Ajay / Prince",
+      "status": "Found",
+      "source": "VOL3APPROVEDMAKELISTPART02_compressed.pdf, Pages 3–31, Approved Make List (Sections A, B, DG Set, Electrical, Fire Fighting, HVAC, Plumbing, Landscape)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_45",
+      "category": "Commercial & Payment",
+      "question": "Basic Rate",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_46",
+      "category": "Site & Infrastructure",
+      "question": "Water Supply",
+      "answer": "• Contractor Responsibility & Cost: The Contractor shall be responsible for procuring of all water and other services that it may require at its own cost (Clause 3.7) and bear all costs and charges for water required in connection with access to the Site (Clause 8.6).\n• Authority Assistance: Upon written request from the Contractor, the Authority will provide reasonable assistance in obtaining access to infrastructure facilities and utilities, including water at rates and on terms no less favourable than those generally available to commercial customers receiving substantially equivalent services (Clause 4.1.6(b)).\n• Statutory NOC: MSIDC is responsible for obtaining Water Supply NOC / Source Approval at the Pre-Tender Stage (Schedule F, Part B, Item 8).\n• Operation Management Period: All consumables required for the 24-month Operations Management period shall be borne by the Authority (Schedule E, Page 1).",
+      "status": "Found",
+      "source": "VBNPART2VOL2EPCAGREEMENT_compressed.pdf, Page 20, Clause 3.7; Page 23, Clause 4.1.6(b); Page 35, Clause 8.6; ScheduleEtoQ_compressed.pdf, Page 1 (Schedule E) & Page 2 (Schedule F)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_47",
+      "category": "Site & Infrastructure",
+      "question": "Electricity Supply",
+      "answer": "• Contractor Responsibility & Procurement: The Contractor shall be responsible for procuring all power-electricity and other services that it may require at its own cost (Clause 3.7) and bear all costs and charges for electricity required in connection with access to the Site (Clause 8.6).\n• Authority Assistance: Upon written request from the Contractor, the Authority shall provide reasonable assistance in obtaining access to infrastructure facilities and utilities, including electricity at rates and terms no less favourable than those available to commercial customers (Clause 4.1.6(b)).\n• Temporary Power Works: The EPC Contractor shall design, provide, maintain, and remove temporary electrical supply and temporary lighting required for construction (Schedule B, Annexure 1, Clause 6.8).\n• Permanent Infrastructure & Backup Scope: The Project requires 100% DG Backup for the building, two 11KV Grid Substation Buildings (with GIS equipment), DG set underground building, and laying/installation/termination of 33KV Transmission Lines coordinated with MSEDCL up to the substation buildings (RFP, Page 16, Clause 1.7.1 & Page 21, Clause 1.8.1(nn)).",
+      "status": "Found",
+      "source": "VBNPART2VOL2EPCAGREEMENT_compressed.pdf, Page 20, Clause 3.7; Page 23, Clause 4.1.6(b); Page 35, Clause 8.6; SCHBAnnexure1BroadScopeofwork_compressed.pdf, Page 10, Clause 6.8; VBNPART2RFP_compressed.pdf, Pages 16 & 21, Clauses 1.7.1 & 1.8.1(nn)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_48",
+      "category": "Site & Infrastructure",
+      "question": "Space for labour hutment",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_49",
+      "category": "Site & Infrastructure",
+      "question": "Working Time",
+      "answer": "• Construction work shall be planned and halted as per the Assembly Session Schedule in Winter 2026 & 2027 (Winter Session of Assemblies in Nagpur).\n• Construction activity must not hamper the existing Vidhan Bhavan building and its functioning.\n• Land under Block C and D will be made available for construction activity after the Winter Session of 2026.",
+      "status": "Found",
+      "source": "VBNPART2VOL2EPCAGREEMENT_compressed.pdf, Page 33, Clause 8.2.3 / VBNPART2RFP_compressed.pdf, Page 24, Clause 1.1.1",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_50",
+      "category": "Site & Infrastructure",
+      "question": "Project Documentary Film & Video-Grapy",
+      "answer": "• Aerial Imagery & Drone Shoot: The Contractor is required to fly UAV / Helicopter, etc. for taking aerial imageries and preparing DSM, DEM, and DTM, as well as conducting LiDAR data capturing to prepare As-Built BIM and Models and get them approved from the Authority (Schedule O, Clause 2.2.1).\n• Video Recording: Clause 11.16 'Video recording' is mandated as part of Quality Assurance, Monitoring and Supervision during construction (EPC Agreement, Table of Contents, Page 4, Clause 11.16).",
+      "status": "Found",
+      "source": "ScheduleEtoQ_compressed.pdf, Page 36, Schedule O, Clause 2.2.1; VBNPART2VOL2EPCAGREEMENT_compressed.pdf, Page 4, Clause 11.16",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_51",
+      "category": "Safety & Environment",
+      "question": "First Aid Facilities & Emergency Set-up",
+      "answer": "• The EPC Contractor shall establish and maintain a comprehensive Health, Safety and Environment (HSE) Management System including First Aid Facilities, Emergency Response Procedures, Site Safety Plan, Fire Safety Procedures, Risk Assessment, Incident Reporting, and Accident Investigation.",
+      "status": "Found",
+      "source": "SCHBAnnexure1BroadScopeofwork_compressed.pdf, Page 21, Section 12.3",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_52",
+      "category": "Quality & Technical",
+      "question": "Material & Samples",
+      "answer": "• All materials to be used on civil construction work shall be got approved in advance from the Authority’s Engineer / PMC (and for furniture work from Architect and Authority’s Engineer / PMC).\n• The contractor shall at his risk and cost make all arrangements and provide facilities required by the Authority’s Engineer / PMC for collecting and preparing samples for tests/analysis and deposit them with the Authority’s Engineer / PMC.\n• The contractor shall submit samples at his cost and shall not incorporate materials represented by samples until final acceptance by the Authority’s Engineer / PMC.",
+      "status": "Found",
+      "source": "ScheduleEtoQ_compressed.pdf, Page 23, Schedule K (Samples and Testing Materials)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_53",
+      "category": "Quality & Technical",
+      "question": "Material Testing Laboratory",
+      "answer": "• The contractor shall at his own cost set up a laboratory to carry out routine tests of materials to be used on the work, either in his field laboratory or in an approved laboratory.\n• The contractor shall maintain a certified testing lab at site with minimum facilities/equipments specified in Contract Conditions and get it approved by the Structural Consultant.\n• Site preliminaries include setting up Contractor’s / PMC’s / Employer’s Site Establishments including laboratory.",
+      "status": "Found",
+      "source": "ScheduleEtoQ_compressed.pdf, Page 23, Schedule K, Clause F; SCHBAnnexure1BroadScopeofwork_compressed.pdf, Page 27 (S/No. 0) & Page 30 (Section 3.0, Clause e)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_54",
+      "category": "Safety & Environment",
+      "question": "Barricading",
+      "answer": "• Boundary Wall and Gates: Minimum 2.4 meter High Solid wall.\n• Temporary Works: The EPC Contractor shall design, provide, maintain and remove all temporary works required for safe execution including barricading, hoardings, and temporary fencing.\n• Site barricading material procurement, delivery, and installation are included under preliminaries.",
+      "status": "Found",
+      "source": "VBNPART2RFP_compressed.pdf, Page 16, Clause 1.7.1; SCHBAnnexure1BroadScopeofwork_compressed.pdf, Page 10, Section 6.8 & Page 27, S/No. 0",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_55",
+      "category": "Safety & Environment",
+      "question": "Water spraying",
+      "answer": "• The EPC Contractor shall prepare, implement, and maintain a Dust Suppression Plan as part of Construction Environmental Management.",
+      "status": "Found",
+      "source": "SCHBAnnexure1BroadScopeofwork_compressed.pdf, Page 21, Section 12.2",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_56",
+      "category": "Safety & Environment",
+      "question": "Use Of Low-Voc Paints/Adhesives/Sealants",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_57",
+      "category": "Commercial & Legal",
+      "question": "Escrow Account",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_58",
+      "category": "Site & Infrastructure",
+      "question": "Site Signages",
+      "answer": "• Signage and wayfinding graphics shall be provided at appropriate locations on the exterior of various buildings as per specifications in the tender document.\n• External Signage & Wayfinding: Includes informational, orientational, directional, identification, statutory, regulatory, and emergency signage as per design intent.\n• Temporary site hoardings/barricading form part of site setup.",
+      "status": "Found",
+      "source": "VBNPART2RFP_compressed.pdf, Page 16 (Clause 1.7.1) & Page 23 (S/No. yy); SCHBAnnexure1BroadScopeofwork_compressed.pdf, Page 27, S/No. 0",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_59",
+      "category": "Site & Infrastructure",
+      "question": "Office for Client",
+      "answer": "• Preliminaries and site setup include Contractor’s / PMC’s / Employer’s Site Establishments, site office, godowns, laboratory, etc.",
+      "status": "Found",
+      "source": "SCHBAnnexure1BroadScopeofwork_compressed.pdf, Page 27, S/No 0; VBNPART2RFP_compressed.pdf, Page 17, Clause 1.8.1 S/No. a",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_60",
+      "category": "Site & Infrastructure",
+      "question": "Trasportation for Client",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_61",
+      "category": "Quality & Technical",
+      "question": "Plants & Machinery",
+      "answer": "• Fully Automatic Microprocessor based PLC with SCADA Enabled Concrete Batch Mix Plant (Pan Mixer) of min 60 to 75 cum/hr capacity: 1 No. (Max Age: 5 Years, Ownership: Owned)\n• Transit Mixer of min 6 Cum capacity: 5 Nos (Max Age: 5 Years, Ownership: Owned)\n• Sand screening cum Washing unit electrically or diesel operated 10 Cum/hr capacity: 1 No. (Max Age: 5 Years, Ownership: Owned)\n• Tower Crane (at least 5 MT capacity): 1 No. (Max Age: 5 Years, Ownership: Owned)\n• Scaffolding: 1.5 times of the largest slab area (Max Age: 5 Years, Ownership: Owned)",
+      "status": "Found",
+      "source": "VBNPART2RFP_compressed.pdf, Page 34, Clause 2.2.2 (f)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_62",
+      "category": "Quality & Technical",
+      "question": "Staff",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_63",
+      "category": "Commercial & Legal",
+      "question": "Force Majure",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    }
+  ],
+  "id": "8838af87-2",
+  "reanalyzed_at": "2026-09-25T18:18:19.572919"
+}

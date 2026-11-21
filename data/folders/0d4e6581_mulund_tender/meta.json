@@ -1,0 +1,60 @@
+{
+  "id": "0d4e6581_mulund_tender",
+  "name": "Mulund Tender",
+  "description": "Date:- 15-10-2026",
+  "department": "",
+  "created_at": "2026-10-15T16:37:10.987648",
+  "file_count": 8,
+  "files": [
+    "Corrigendum_I.pdf",
+    "Corrigendum_II_Date_Extension.pdf",
+    "eProcurement System Government of India.pdf",
+    "First_Additional_Clarification.pdf",
+    "Important General Notes.pdf",
+    "Prebid_Minutes.pdf",
+    "Second_Additional_Information.pdf",
+    "TechnicalBid.pdf"
+  ],
+  "file_details": [
+    {
+      "name": "Corrigendum_I.pdf",
+      "size_bytes": 34271420,
+      "size_mb": 32.68
+    },
+    {
+      "name": "Corrigendum_II_Date_Extension.pdf",
+      "size_bytes": 1078419,
+      "size_mb": 1.03
+    },
+    {
+      "name": "eProcurement System Government of India.pdf",
+      "size_bytes": 433189,
+      "size_mb": 0.41
+    },
+    {
+      "name": "First_Additional_Clarification.pdf",
+      "size_bytes": 980900,
+      "size_mb": 0.94
+    },
+    {
+      "name": "Important General Notes.pdf",
+      "size_bytes": 434941,
+      "size_mb": 0.41
+    },
+    {
+      "name": "Prebid_Minutes.pdf",
+      "size_bytes": 9451786,
+      "size_mb": 9.01
+    },
+    {
+      "name": "Second_Additional_Information.pdf",
+      "size_bytes": 1391120,
+      "size_mb": 1.33
+    },
+    {
+      "name": "TechnicalBid.pdf",
+      "size_bytes": 1424365,
+      "size_mb": 1.36
+    }
+  ]
+}
