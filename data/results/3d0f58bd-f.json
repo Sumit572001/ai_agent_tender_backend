@@ -1,0 +1,669 @@
+{
+  "folder_id": "d820830d_vidhanbhavan",
+  "folder_name": "vidhanbhavan",
+  "created_at": "2026-09-23T14:56:03.479963",
+  "total_points": 63,
+  "found_points": 33,
+  "missing_points": 30,
+  "accuracy_score": 52.38,
+  "files": [
+    "eProcurement System Government of Maharashtra_compressed.pdf",
+    "P02ARCHITECTUREDRAWINGPart1_compressed.pdf",
+    "SCHAAnnexure1Site_compressed.pdf",
+    "SCHAAnnexure3EnvironmentalClearance_compressed.pdf",
+    "SCHAAnnexureBSUBSOILINVESTIGATIONreport_compressed.pdf",
+    "SCHBAnnexure1BroadScopeofwork_compressed.pdf",
+    "ScheduleEtoQ_compressed.pdf",
+    "VBNPART2RFP_compressed.pdf",
+    "VBNPART2VOL2EPCAGREEMENT_compressed.pdf",
+    "VOL03PART02DBR_compressed.pdf",
+    "VOL3APPROVEDMAKELISTPART02_compressed.pdf",
+    "VOL3TECHSPECSPART02_compressed.pdf"
+  ],
+  "doc_summaries": [
+    {
+      "filename": "eProcurement System Government of Maharashtra_compressed.pdf",
+      "page_count": 2,
+      "total_chars": 4219,
+      "extracted_pages": 2
+    },
+    {
+      "filename": "P02ARCHITECTUREDRAWINGPart1_compressed.pdf",
+      "page_count": 50,
+      "total_chars": 250393,
+      "extracted_pages": 50
+    },
+    {
+      "filename": "SCHAAnnexure1Site_compressed.pdf",
+      "page_count": 11,
+      "total_chars": 20599,
+      "extracted_pages": 11
+    },
+    {
+      "filename": "SCHAAnnexure3EnvironmentalClearance_compressed.pdf",
+      "page_count": 6,
+      "total_chars": 12324,
+      "extracted_pages": 6
+    },
+    {
+      "filename": "SCHAAnnexureBSUBSOILINVESTIGATIONreport_compressed.pdf",
+      "page_count": 41,
+      "total_chars": 49050,
+      "extracted_pages": 41
+    },
+    {
+      "filename": "SCHBAnnexure1BroadScopeofwork_compressed.pdf",
+      "page_count": 94,
+      "total_chars": 272869,
+      "extracted_pages": 94
+    },
+    {
+      "filename": "ScheduleEtoQ_compressed.pdf",
+      "page_count": 179,
+      "total_chars": 399403,
+      "extracted_pages": 179
+    },
+    {
+      "filename": "VBNPART2RFP_compressed.pdf",
+      "page_count": 100,
+      "total_chars": 244677,
+      "extracted_pages": 100
+    },
+    {
+      "filename": "VBNPART2VOL2EPCAGREEMENT_compressed.pdf",
+      "page_count": 142,
+      "total_chars": 349678,
+      "extracted_pages": 142
+    },
+    {
+      "filename": "VOL03PART02DBR_compressed.pdf",
+      "page_count": 199,
+      "total_chars": 260232,
+      "extracted_pages": 194
+    },
+    {
+      "filename": "VOL3APPROVEDMAKELISTPART02_compressed.pdf",
+      "page_count": 31,
+      "total_chars": 51439,
+      "extracted_pages": 31
+    },
+    {
+      "filename": "VOL3TECHSPECSPART02_compressed.pdf",
+      "page_count": 522,
+      "total_chars": 1514232,
+      "extracted_pages": 521
+    }
+  ],
+  "model_used": "gemini-3.5-flash",
+  "results": [
+    {
+      "id": "crit_1",
+      "category": "General & Project Details",
+      "question": "Tender No",
+      "answer": "Tender Reference Number: 15 Plot 2 Vidhanbhavan (Tender ID: 2026_MSIDC_1339232_1)",
+      "status": "Found",
+      "source": "eProcurement System Government of Maharashtra_compressed.pdf, Page 1, Basic Details",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_2",
+      "category": "General & Project Details",
+      "question": "Type of Contract",
+      "answer": "Lump-sum / EPC Basis",
+      "status": "Found",
+      "source": "eProcurement System Government of Maharashtra_compressed.pdf, Page 1, Basic Details & Work /Item(s)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_3",
+      "category": "General & Project Details",
+      "question": "Cost of project",
+      "answer": "₹ 2,30,00,00,000",
+      "status": "Found",
+      "source": "eProcurement System Government of Maharashtra_compressed.pdf, Page 1, Work /Item(s)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_4",
+      "category": "Fees & Guarantees",
+      "question": "Tender Fees",
+      "answer": "Total Fee: ₹ 35,900 (Tender Fee: ₹ 35,400, Processing Fee: ₹ 500), Payment Mode: Online",
+      "status": "Found",
+      "source": "eProcurement System Government of Maharashtra_compressed.pdf, Page 1, Tender Fee Details & Basic Details",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_5",
+      "category": "Fees & Guarantees",
+      "question": "EMD",
+      "answer": "₹ 2,30,00,000 (1.0% of Tender Value), Payment Mode: Online (SBI Bank)",
+      "status": "Found",
+      "source": "eProcurement System Government of Maharashtra_compressed.pdf, Page 1, EMD Fee Details & Payment Instruments",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_6",
+      "category": "General & Project Details",
+      "question": "Name of Work",
+      "answer": "Detail Design, Procurement, Construction, Testing and Commissioning of Extension to Vidhan Bhavan Construction of New Administrative Building Part 2 at Civil Lines, Nagpur on EPC Basis",
+      "status": "Found",
+      "source": "eProcurement System Government of Maharashtra_compressed.pdf, Page 1, Work /Item(s)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_7",
+      "category": "General & Project Details",
+      "question": "Scope of work",
+      "answer": "Detailed Design, Engineering, Procurement, Construction, Testing, Commissioning, and Handover of the works within Plot 02. Executed in two phases: Phase 1 includes Shell & Core (Structure, Façade & High side MEPF, demolition of temporary structures, construction of West and East Blocks, external development). Phase 2 includes internal finishes, interior fit-outs, internal MEPF, AV, acoustics, CCTV, access control, final integration, testing, and commissioning.",
+      "status": "Found",
+      "source": "SCHBAnnexure1BroadScopeofwork_compressed.pdf, Page 6-7, Clause 6",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_8",
+      "category": "General & Project Details",
+      "question": "Type of Project/ Building/",
+      "answer": "Government Administrative Building / Legislative Complex Extension (Civil Works)",
+      "status": "Found",
+      "source": "eProcurement System Government of Maharashtra_compressed.pdf, Page 1, Work /Item(s) and SCHBAnnexure1BroadScopeofwork_compressed.pdf, Page 5, Clause 4",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_9",
+      "category": "General & Project Details",
+      "question": "Client",
+      "answer": "Maharashtra State Infrastructure Development Corporation Limited (MSIDC) / Government of Maharashtra",
+      "status": "Found",
+      "source": "eProcurement System Government of Maharashtra_compressed.pdf, Page 1, Basic Details and SCHAAnnexure1Site_compressed.pdf, Page 7, Clause 2.7",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_10",
+      "category": "General & Project Details",
+      "question": "Executing Agency",
+      "answer": "Maharashtra State Infrastructure Development Corporation (MSIDC)",
+      "status": "Found",
+      "source": "eProcurement System Government of Maharashtra_compressed.pdf, Page 1, Basic Details",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_11",
+      "category": "General & Project Details",
+      "question": "Architect & Preparation of Tender",
+      "answer": "Architect Hafeez Contractor",
+      "status": "Found",
+      "source": "P02ARCHITECTUREDRAWINGPart1_compressed.pdf, Page 3, General Notes",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_12",
+      "category": "Dates & Timelines",
+      "question": "Publish Date",
+      "answer": "17-Sep-2026 11:00 AM",
+      "status": "Found",
+      "source": "eProcurement System Government of Maharashtra_compressed.pdf, Page 2, Critical Dates",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_13",
+      "category": "Dates & Timelines",
+      "question": "Pre Bid -meeting & Place",
+      "answer": "28-Sep-2026 12:00 PM at CE office MSIDC, 13th floor Bakhtawar building, Nariman point, Mumbai",
+      "status": "Found",
+      "source": "eProcurement System Government of Maharashtra_compressed.pdf, Page 1, Work /Item(s)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_14",
+      "category": "Dates & Timelines",
+      "question": "Submission date",
+      "answer": "16-Oct-2026 05:00 PM",
+      "status": "Found",
+      "source": "eProcurement System Government of Maharashtra_compressed.pdf, Page 2, Critical Dates",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_15",
+      "category": "Dates & Timelines",
+      "question": "Bid Opening Date",
+      "answer": "19-Oct-2026 11:00 AM",
+      "status": "Found",
+      "source": "eProcurement System Government of Maharashtra_compressed.pdf, Page 2, Critical Dates",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_16",
+      "category": "Dates & Timelines",
+      "question": "Bid Validity",
+      "answer": "180 Days",
+      "status": "Found",
+      "source": "eProcurement System Government of Maharashtra_compressed.pdf, Page 1, Work /Item(s)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_17",
+      "category": "Dates & Timelines",
+      "question": "Commencement of project",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_18",
+      "category": "Dates & Timelines",
+      "question": "Time of Completion",
+      "answer": "457 Days",
+      "status": "Found",
+      "source": "eProcurement System Government of Maharashtra_compressed.pdf, Page 1, Work /Item(s)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_19",
+      "category": "Commercial & Legal",
+      "question": "Joint Venture (JV)",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_20",
+      "category": "Site & Infrastructure",
+      "question": "Site Location",
+      "answer": "Vidhan Bhavan precinct at Civil Lines, Nagpur, Maharashtra, Pincode 440001",
+      "status": "Found",
+      "source": "SCHAAnnexure1Site_compressed.pdf, Page 6, Clause 2.1; eProcurement System Government of Maharashtra_compressed.pdf, Page 1",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_21",
+      "category": "Site & Infrastructure",
+      "question": "Site Visit/ Site Location",
+      "answer": "The Project Site is located within the Vidhan Bhavan precinct at Civil Lines, Nagpur, Maharashtra. The EPC Contractor is required to verify and supplement all survey, site, and interface information necessary for the detailed design and execution of the Plot 02 works.",
+      "status": "Found",
+      "source": "SCHAAnnexure1Site_compressed.pdf, Page 6, Clause 2.1 & Page 7, Clause 2.9",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_22",
+      "category": "Site & Infrastructure",
+      "question": "Built up Area",
+      "answer": "The total Built-up Area of the Project shall be governed by the latest approved architectural area statement forming part of the Contract Documents. The Basement Area is specified as 3609.57 sq.m (for Basement-03 and Basement-02) and 3321.78 sq.m (for Basement-01) in the drawings.",
+      "status": "Found",
+      "source": "SCHBAnnexure1BroadScopeofwork_compressed.pdf, Page 6, Clause 5.3; P02ARCHITECTUREDRAWINGPart1_compressed.pdf, Page 5, 22, 23, 24",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_23",
+      "category": "Site & Infrastructure",
+      "question": "Site Area",
+      "answer": "Approx. 8188.87 sq.m (2.02 acres) as per Clause 2.2, or 7970.10 Sq.m. (1.96 acre) as per Clause 3.2.",
+      "status": "Found",
+      "source": "SCHAAnnexure1Site_compressed.pdf, Page 6, Clause 2.2 & Page 8, Clause 3.2",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_24",
+      "category": "Commercial & Payment",
+      "question": "Milestone",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_25",
+      "category": "Commercial & Payment",
+      "question": "Liquidated Damages",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_26",
+      "category": "Commercial & Payment",
+      "question": "Incentive for Early completion",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_27",
+      "category": "Commercial & Payment",
+      "question": "Minimum value of work to be executed interim RA payment",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_28",
+      "category": "Commercial & Payment",
+      "question": "R.A Bill Payments",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_29",
+      "category": "Commercial & Payment",
+      "question": "Period of Final Measurement",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_30",
+      "category": "Commercial & Payment",
+      "question": "Price Escalation",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_31",
+      "category": "Commercial & Legal",
+      "question": "Stamp Duty for Aggrement",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_32",
+      "category": "Fees & Guarantees",
+      "question": "Retension Money",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_33",
+      "category": "Fees & Guarantees",
+      "question": "Release of Retension Money",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_34",
+      "category": "Fees & Guarantees",
+      "question": "Security Deposite",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_35",
+      "category": "Fees & Guarantees",
+      "question": "Release of Security Deposite",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_36",
+      "category": "Fees & Guarantees",
+      "question": "Performance Security",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_37",
+      "category": "Fees & Guarantees",
+      "question": "Release of Performance Security",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_38",
+      "category": "Commercial & Payment",
+      "question": "Defect liability period",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_39",
+      "category": "Commercial & Payment",
+      "question": "Mobilisation Advance",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_40",
+      "category": "Commercial & Payment",
+      "question": "Interest Rate of Mobilization Advance",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_41",
+      "category": "Commercial & Payment",
+      "question": "Recovery of Mobilisation Advance",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_42",
+      "category": "Commercial & Payment",
+      "question": "Secured advance on materials",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_43",
+      "category": "Commercial & Payment",
+      "question": "% of all overheads and profits",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_44",
+      "category": "Quality & Technical",
+      "question": "List of approved make/Agencies",
+      "answer": "The comprehensive Approved Make List is provided in a separate tender document titled 'VOL3APPROVEDMAKELISTPART02.pdf' (referenced on Page 2 of eProcurement System Government of Maharashtra). Additionally, specific approved makes/products are mentioned throughout the Broad Scope of Work (Schedule B: Annexure 2A), such as UltraTech Fixoblock (Page 51), Alumil Smartia M7 (Page 52), AkzoNobel or Jotun powder coatings (Page 53), and Doka or Cuplock formwork (Page 31).",
+      "status": "Found",
+      "source": "eProcurement System Government of Maharashtra_compressed.pdf, Page 2, Item 21; and SCHBAnnexure1BroadScopeofwork_compressed.pdf, Pages 31, 51, 52, 53",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_45",
+      "category": "Commercial & Payment",
+      "question": "Basic Rate",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_46",
+      "category": "Site & Infrastructure",
+      "question": "Water Supply",
+      "answer": "The EPC Contractor is responsible for designing, providing, maintaining, and removing temporary water supply as part of the temporary works required for the safe execution of the Project.",
+      "status": "Found",
+      "source": "SCHBAnnexure1BroadScopeofwork_compressed.pdf, Page 10, Clause 6.8 (Temporary Works)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_47",
+      "category": "Site & Infrastructure",
+      "question": "Electricity Supply",
+      "answer": "The EPC Contractor is responsible for designing, providing, maintaining, and removing temporary electrical supply and temporary lighting as part of the temporary works (Page 10, Clause 6.8). Additionally, the permanent works include the supply, installation, testing, and commissioning of a 1250KVA / 1000 KW Diesel Generating Set (Page 69, Item 5).",
+      "status": "Found",
+      "source": "SCHBAnnexure1BroadScopeofwork_compressed.pdf, Page 10 (Clause 6.8) and Page 69 (Item 5)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_48",
+      "category": "Site & Infrastructure",
+      "question": "Space for labour hutment",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_49",
+      "category": "Site & Infrastructure",
+      "question": "Working Time",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_50",
+      "category": "Site & Infrastructure",
+      "question": "Project Documentary Film & Video-Grapy",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_51",
+      "category": "Safety & Environment",
+      "question": "First Aid Facilities & Emergency Set-up",
+      "answer": "The Contractor's HSE Management System must include First Aid Facilities. Additionally, the Contractor must supply a standard first aid box containing antiseptic cream, medicine for burns, crepe bandages, gauge bandages, medicated ready-to-use bandages, adhesive tape, scissors, and anti-septic solution under Substation Safety Equipment.",
+      "status": "Found",
+      "source": "SCHBAnnexure1BroadScopeofwork_compressed.pdf, Page 21, Clause 12.3 & Page 70, Item 11",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_52",
+      "category": "Quality & Technical",
+      "question": "Material & Samples",
+      "answer": "All relevant samples must be approved by the Architect prior to procurement. Mock-ups shall be prepared wherever directed by the Employer, Architect, or PMC, and bulk execution shall commence only after approval of the respective mock-up.",
+      "status": "Found",
+      "source": "P02ARCHITECTUREDRAWINGPart1_compressed.pdf, Page 3, General Note 13 & SCHBAnnexure1BroadScopeofwork_compressed.pdf, Page 24, Clause 17.3 & 17.4",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_53",
+      "category": "Quality & Technical",
+      "question": "Material Testing Laboratory",
+      "answer": "The Contractor shall maintain a certified testing lab at site with minimum facilities/equipments as per the attached plan specified in the Contract Conditions, which must be approved by the Structural Consultant.",
+      "status": "Found",
+      "source": "SCHBAnnexure1BroadScopeofwork_compressed.pdf, Page 30, Clause 3.0(e)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_54",
+      "category": "Safety & Environment",
+      "question": "Barricading",
+      "answer": "Providing and maintaining barricading on the site 5 m high by using MS Pipes or angle iron framework of verticals at 3 m c/c and horizontals at 0.90 m c/c, Galvalume sheets, Struts, MS Clamps, etc.",
+      "status": "Found",
+      "source": "SCHBAnnexure1BroadScopeofwork_compressed.pdf, Page 52, Item 10.1",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_55",
+      "category": "Safety & Environment",
+      "question": "Water spraying",
+      "answer": "The EPC Contractor shall implement suitable environmental protection measures including dust suppression by water sprinkling or equivalent approved methods, and prepare a Dust Suppression and Air Quality Management Plan.",
+      "status": "Found",
+      "source": "SCHAAnnexure3EnvironmentalClearance_compressed.pdf, Page 4, Clause 7(a) & Clause 6(b)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_56",
+      "category": "Safety & Environment",
+      "question": "Use Of Low-Voc Paints/Adhesives/Sealants",
+      "answer": "The ramp intermediate slab area waterproofing requires a Green Level certified, low VOC, solvent-free, elastomeric, flexible polyurethane trafficable car park decking system.",
+      "status": "Found",
+      "source": "SCHBAnnexure1BroadScopeofwork_compressed.pdf, Page 44, Clause 6.9(I)",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_57",
+      "category": "Commercial & Legal",
+      "question": "Escrow Account",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_58",
+      "category": "Site & Infrastructure",
+      "question": "Site Signages",
+      "answer": "Cast iron signage (900mm height, 510mm width) and signage light (9W LED) are specified under Landscaping. Additionally, display boards and sign boards are required for the Solar PV System.",
+      "status": "Found",
+      "source": "SCHBAnnexure1BroadScopeofwork_compressed.pdf, Page 88, Item 4 & 5 & Page 75, Item 65",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_59",
+      "category": "Site & Infrastructure",
+      "question": "Office for Client",
+      "answer": "The Contractor is required to provide Site Establishments including a Site Office for the Contractor, PMC, and Employer under Preliminaries and site setup. Specific details regarding furniture, AC, or laptops are not specified.",
+      "status": "Found",
+      "source": "SCHBAnnexure1BroadScopeofwork_compressed.pdf, Page 27, Item 0",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_60",
+      "category": "Site & Infrastructure",
+      "question": "Trasportation for Client",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_61",
+      "category": "Quality & Technical",
+      "question": "Plants & Machinery",
+      "answer": "The contractor is required to provide or set up: a fully automatic micro-processor-based PLC with SCADA enabled reversible Drum Type mixer/concrete Batch mix plant (Pan mixer) (Page 30, Clause 2.1); a dedicated computerized RMC plant of adequate capacity at site (Page 31, Clause 3.0(j)); adequate capacity cranes for lifting and lowering steel sections (Page 37, Clause 4.0(ii)); and site establishments including a laboratory, rebar yard, water treatment plant, and batching plants (Page 27, Clause 0).",
+      "status": "Found",
+      "source": "SCHB Annexure 1 Broad Scope of Work, Pages 27, 30, 31, and 37",
+      "confidence": "High"
+    },
+    {
+      "id": "crit_62",
+      "category": "Quality & Technical",
+      "question": "Staff",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    },
+    {
+      "id": "crit_63",
+      "category": "Commercial & Legal",
+      "question": "Force Majure",
+      "answer": "-",
+      "status": "Not Found",
+      "source": "-",
+      "confidence": "-"
+    }
+  ],
+  "id": "3d0f58bd-f",
+  "reanalyzed_at": "2026-09-24T15:07:47.365641"
+}

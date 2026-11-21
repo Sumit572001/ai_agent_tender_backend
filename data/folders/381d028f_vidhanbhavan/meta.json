@@ -1,0 +1,84 @@
+{
+  "id": "381d028f_vidhanbhavan",
+  "name": "vidhanbhavan",
+  "description": "2nd test 24/9/26",
+  "department": "",
+  "created_at": "2026-09-24T15:11:19.121815",
+  "file_count": 12,
+  "files": [
+    "eProcurement System Government of Maharashtra_compressed.pdf",
+    "P02ARCHITECTUREDRAWINGPart1_compressed.pdf",
+    "SCHAAnnexure1Site_compressed.pdf",
+    "SCHAAnnexure3EnvironmentalClearance_compressed.pdf",
+    "SCHAAnnexureBSUBSOILINVESTIGATIONreport_compressed.pdf",
+    "SCHBAnnexure1BroadScopeofwork_compressed.pdf",
+    "ScheduleEtoQ_compressed.pdf",
+    "VBNPART2RFP_compressed.pdf",
+    "VBNPART2VOL2EPCAGREEMENT_compressed.pdf",
+    "VOL03PART02DBR_compressed.pdf",
+    "VOL3APPROVEDMAKELISTPART02_compressed.pdf",
+    "VOL3TECHSPECSPART02_compressed.pdf"
+  ],
+  "file_details": [
+    {
+      "name": "eProcurement System Government of Maharashtra_compressed.pdf",
+      "size_bytes": 55202,
+      "size_mb": 0.05
+    },
+    {
+      "name": "P02ARCHITECTUREDRAWINGPart1_compressed.pdf",
+      "size_bytes": 38917317,
+      "size_mb": 37.11
+    },
+    {
+      "name": "SCHAAnnexure1Site_compressed.pdf",
+      "size_bytes": 417177,
+      "size_mb": 0.4
+    },
+    {
+      "name": "SCHAAnnexure3EnvironmentalClearance_compressed.pdf",
+      "size_bytes": 68112,
+      "size_mb": 0.06
+    },
+    {
+      "name": "SCHAAnnexureBSUBSOILINVESTIGATIONreport_compressed.pdf",
+      "size_bytes": 1690160,
+      "size_mb": 1.61
+    },
+    {
+      "name": "SCHBAnnexure1BroadScopeofwork_compressed.pdf",
+      "size_bytes": 827390,
+      "size_mb": 0.79
+    },
+    {
+      "name": "ScheduleEtoQ_compressed.pdf",
+      "size_bytes": 1595254,
+      "size_mb": 1.52
+    },
+    {
+      "name": "VBNPART2RFP_compressed.pdf",
+      "size_bytes": 701403,
+      "size_mb": 0.67
+    },
+    {
+      "name": "VBNPART2VOL2EPCAGREEMENT_compressed.pdf",
+      "size_bytes": 1365105,
+      "size_mb": 1.3
+    },
+    {
+      "name": "VOL03PART02DBR_compressed.pdf",
+      "size_bytes": 6622737,
+      "size_mb": 6.32
+    },
+    {
+      "name": "VOL3APPROVEDMAKELISTPART02_compressed.pdf",
+      "size_bytes": 334143,
+      "size_mb": 0.32
+    },
+    {
+      "name": "VOL3TECHSPECSPART02_compressed.pdf",
+      "size_bytes": 4750548,
+      "size_mb": 4.53
+    }
+  ]
+}

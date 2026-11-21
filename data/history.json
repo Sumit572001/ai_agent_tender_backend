@@ -1,0 +1,203 @@
+[
+  {
+    "id": "8cd7d964-9",
+    "folder_id": "58bcffb1_rao_tender",
+    "folder_name": "Rao Tender",
+    "created_at": "2026-11-04T15:04:59.709707",
+    "total_points": 63,
+    "found_points": 30,
+    "missing_points": 33,
+    "accuracy_score": 47.62,
+    "file_count": 3,
+    "files": [
+      "1 FORM.pdf",
+      "2 B1.pdf",
+      "3 SCHEDULE C.pdf"
+    ],
+    "model_used": "gemini-3.6-flash"
+  },
+  {
+    "id": "7f5f801a-4",
+    "folder_id": "49ce52b3_rbi_mumbai",
+    "folder_name": "RBI Mumbai",
+    "created_at": "2026-10-26T11:38:33.204722",
+    "total_points": 63,
+    "found_points": 36,
+    "missing_points": 27,
+    "accuracy_score": 57.14,
+    "file_count": 4,
+    "files": [
+      "1NITPARTA.pdf",
+      "2NITPARTB.pdf",
+      "3NITPARTC.pdf",
+      "Tendernotice_1 (98).pdf"
+    ],
+    "model_used": "gemini-3.6-flash"
+  },
+  {
+    "id": "4257c693-8",
+    "folder_id": "52a5743b_mmrcl",
+    "folder_name": "MMRCL",
+    "created_at": "2026-10-16T12:45:12.113677",
+    "total_points": 63,
+    "found_points": 13,
+    "missing_points": 50,
+    "accuracy_score": 20.63,
+    "file_count": 1,
+    "files": [
+      "Volume2CConditionsofcontractonSafetyHealthEnvironmentandWelfare.pdf"
+    ],
+    "model_used": "gemini-3.6-flash"
+  },
+  {
+    "id": "1940bdb7-8",
+    "folder_id": "0d4e6581_mulund_tender",
+    "folder_name": "Mulund Tender",
+    "created_at": "2026-10-15T16:48:00.302660",
+    "total_points": 63,
+    "found_points": 44,
+    "missing_points": 19,
+    "accuracy_score": 69.84,
+    "file_count": 8,
+    "files": [
+      "Corrigendum_I.pdf",
+      "Corrigendum_II_Date_Extension.pdf",
+      "eProcurement System Government of India.pdf",
+      "First_Additional_Clarification.pdf",
+      "Important General Notes.pdf",
+      "Prebid_Minutes.pdf",
+      "Second_Additional_Information.pdf",
+      "TechnicalBid.pdf"
+    ],
+    "model_used": "gemini-3.6-flash"
+  },
+  {
+    "id": "bf5e6367-9",
+    "folder_id": "68d520bb_bank_tender",
+    "folder_name": "bank tender",
+    "created_at": "2026-09-28T18:13:55.215379",
+    "total_points": 63,
+    "found_points": 48,
+    "missing_points": 15,
+    "accuracy_score": 76.19,
+    "file_count": 11,
+    "files": [
+      "19 BOQ_Combined__compressed.pdf",
+      "21 Soil investigation report_compressed.pdf",
+      "23 Technical Specification_CB_Part_1_compressed.pdf",
+      "24 Technical Specification_CB_Part_2_compressed.pdf",
+      "25 Map location and Site layout_compressed.pdf",
+      "26 List of Approved Makes_compressed.pdf",
+      "27 Presigned Integrity Pact_compressed.pdf",
+      "28 SCC_compressed.pdf",
+      "ePublishing System, Government of India_compressed.pdf",
+      "GCC Construction Works 2026 Contractor with 4 amendments_compressed.pdf",
+      "NIT Canara Bank_compressed.pdf"
+    ],
+    "model_used": "gemini-3.6-flash"
+  },
+  {
+    "id": "8838af87-2",
+    "folder_id": "c310f4ad_vidhanbhavan",
+    "folder_name": "vidhanbhavan",
+    "created_at": "2026-09-25T18:12:40.232168",
+    "total_points": 63,
+    "found_points": 52,
+    "missing_points": 11,
+    "accuracy_score": 82.54,
+    "file_count": 12,
+    "files": [
+      "eProcurement System Government of Maharashtra_compressed.pdf",
+      "P02ARCHITECTUREDRAWINGPart1_compressed.pdf",
+      "SCHAAnnexure1Site_compressed.pdf",
+      "SCHAAnnexure3EnvironmentalClearance_compressed.pdf",
+      "SCHAAnnexureBSUBSOILINVESTIGATIONreport_compressed.pdf",
+      "SCHBAnnexure1BroadScopeofwork_compressed.pdf",
+      "ScheduleEtoQ_compressed.pdf",
+      "VBNPART2RFP_compressed.pdf",
+      "VBNPART2VOL2EPCAGREEMENT_compressed.pdf",
+      "VOL03PART02DBR_compressed.pdf",
+      "VOL3APPROVEDMAKELISTPART02_compressed.pdf",
+      "VOL3TECHSPECSPART02_compressed.pdf"
+    ],
+    "model_used": "gemini-3.6-flash"
+  },
+  {
+    "id": "e5101977-a",
+    "folder_id": "381d028f_vidhanbhavan",
+    "folder_name": "vidhanbhavan",
+    "created_at": "2026-09-24T16:23:58.846712",
+    "total_points": 63,
+    "found_points": 0,
+    "missing_points": 63,
+    "accuracy_score": 0.0,
+    "file_count": 12,
+    "files": [
+      "eProcurement System Government of Maharashtra_compressed.pdf",
+      "P02ARCHITECTUREDRAWINGPart1_compressed.pdf",
+      "SCHAAnnexure1Site_compressed.pdf",
+      "SCHAAnnexure3EnvironmentalClearance_compressed.pdf",
+      "SCHAAnnexureBSUBSOILINVESTIGATIONreport_compressed.pdf",
+      "SCHBAnnexure1BroadScopeofwork_compressed.pdf",
+      "ScheduleEtoQ_compressed.pdf",
+      "VBNPART2RFP_compressed.pdf",
+      "VBNPART2VOL2EPCAGREEMENT_compressed.pdf",
+      "VOL03PART02DBR_compressed.pdf",
+      "VOL3APPROVEDMAKELISTPART02_compressed.pdf",
+      "VOL3TECHSPECSPART02_compressed.pdf"
+    ],
+    "model_used": "gemini-3.6-flash"
+  },
+  {
+    "id": "d618edb5-4",
+    "folder_id": "381d028f_vidhanbhavan",
+    "folder_name": "vidhanbhavan",
+    "created_at": "2026-09-24T15:17:45.293165",
+    "total_points": 63,
+    "found_points": 0,
+    "missing_points": 63,
+    "accuracy_score": 0.0,
+    "file_count": 12,
+    "files": [
+      "eProcurement System Government of Maharashtra_compressed.pdf",
+      "P02ARCHITECTUREDRAWINGPart1_compressed.pdf",
+      "SCHAAnnexure1Site_compressed.pdf",
+      "SCHAAnnexure3EnvironmentalClearance_compressed.pdf",
+      "SCHAAnnexureBSUBSOILINVESTIGATIONreport_compressed.pdf",
+      "SCHBAnnexure1BroadScopeofwork_compressed.pdf",
+      "ScheduleEtoQ_compressed.pdf",
+      "VBNPART2RFP_compressed.pdf",
+      "VBNPART2VOL2EPCAGREEMENT_compressed.pdf",
+      "VOL03PART02DBR_compressed.pdf",
+      "VOL3APPROVEDMAKELISTPART02_compressed.pdf",
+      "VOL3TECHSPECSPART02_compressed.pdf"
+    ],
+    "model_used": "gemini-3.6-flash"
+  },
+  {
+    "id": "3d0f58bd-f",
+    "folder_id": "d820830d_vidhanbhavan",
+    "folder_name": "vidhanbhavan",
+    "created_at": "2026-09-23T14:56:03.479963",
+    "total_points": 63,
+    "found_points": 33,
+    "missing_points": 30,
+    "accuracy_score": 52.38,
+    "file_count": 12,
+    "files": [
+      "eProcurement System Government of Maharashtra_compressed.pdf",
+      "P02ARCHITECTUREDRAWINGPart1_compressed.pdf",
+      "SCHAAnnexure1Site_compressed.pdf",
+      "SCHAAnnexure3EnvironmentalClearance_compressed.pdf",
+      "SCHAAnnexureBSUBSOILINVESTIGATIONreport_compressed.pdf",
+      "SCHBAnnexure1BroadScopeofwork_compressed.pdf",
+      "ScheduleEtoQ_compressed.pdf",
+      "VBNPART2RFP_compressed.pdf",
+      "VBNPART2VOL2EPCAGREEMENT_compressed.pdf",
+      "VOL03PART02DBR_compressed.pdf",
+      "VOL3APPROVEDMAKELISTPART02_compressed.pdf",
+      "VOL3TECHSPECSPART02_compressed.pdf"
+    ],
+    "model_used": "gemini-3.5-flash"
+  }
+]
